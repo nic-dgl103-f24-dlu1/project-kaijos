@@ -43,13 +43,25 @@ Other issues with the site include:
 
 ### Mood
 
-The farmer’s market is meant to be an enjoyable, cheerful, and lively experience for visitors, but they also engage in community work such as sponsorships programs and food banks for low-income families. For this reason, the site should convey a fun, enthusiastic, yet professional feeling in both text and visual styles.
+The markets are meant to be an enjoyable, cheerful, and lively experience for visitors, but they also engage in community work such as sponsorships programs and food banks for low-income families. For this reason, the site should convey a fun, enthusiastic, yet professional feeling in both text and visual styles.
 
 ### Inspiration
 
+1. Digital Design and Development NIC - https://learndigital.dev/
+
+! [Digital Design and Development Home Page](/Images/dgl-homepage.png)
+
+I feel the DGL website has a professional mood, and the layout is similar to what I'm planning for my project.
+
+2. Quest Reality Games Escape Rooms - https://questrealitygames.com/
+
+! [Quest Reality Games Home Page](/Images/questrealitygames-homepage.png)
+
+The Quest Reality Games website has a more fun, energetic mood. The colours are bright and joyful, and I like how they've organized and ordered the content blocks. The header navigation places a orange, square background around what ever page you're currently on, which I might like to copy for my site.
+
 ### Colours
 
-I’d like to keep the colour scheme the original site has. This is mostly monochrome for backgrounds and text, and green for navigation buttons, links, and images. I may try incorporating yellow or orange for highlight colours, as those are the colours I think of when I picture agriculture.
+I would like to keep the colour scheme the original site has. This is mostly monochrome for backgrounds and text, and green for navigation buttons, links, and images. I may try incorporating yellow or orange for highlight colours, as those are the colours I think of when I picture agriculture.
 
 My chosen colours:
 
@@ -59,52 +71,64 @@ My chosen colours:
 
 ### Images
 
-Most of the images from the original site are fine to use. I may need to compress the images. Depending on what colour palette I use, some of the images (such as the logo) may need to be updated to match.
+Most of the images from the original site are fine to use. I will need to compress the images. Depending on what colour palette I use, some of the images (such as the logo) may need to be updated to match.
 
 ### Fonts
+
+The official logo uses the typeface Filson (guessed using https://www.myfonts.com/pages/whatthefont). Because Filson isn't available on Google Fonts, I'm instead using the following:
+
+- Headlines: Lato
+- Body Copy: Montserrat
 
 ## Website Content
 ===================
 
 ### Home Page
+=============
 
 #### Header
 
 1. Logo
 2. Main Navigation
     - Home
-    - About
+    - About Us
     - Blog
     - Gallery
-    - FAQ
+    - Apply Here
     - Contact
 
 #### Hero Section
 
 1. Heading: Welcome to the Comox Valley Farmer's Market!
 2. Image: Use group photo from gallery on current site
-3. Link to About page: "Learn more"
 
 #### About Section
 
-1. Heading: Our Markets
+1. Heading: About Us
+2. Image: Same as official site
+3. Paragraph: Brief intro to Comox Valley Farmer's Market
+4. Link to About page: "Learn More"
+5. Video
+
+#### Markets Section
+
+1. Heading: "Our Markets"
 2. List of Markets Cards (Each Card Includes):
     - Heading: Market name
     - Image: Image of market
-    - Paragraph: Summary of market
-3. Paragraph: Summary of markets
-4. Link to About / Markets page: "View Our Markets"
+    - Paragraph: Market information
+3. Link to About / Markets page: "Learn More"
 
-#### Benefits Section
+#### Directions Section
 
-1. Heading: "Our Vendors & Products"
-2. Paragraph: Summary of vendors and their products
-3. Link to About / Vendors page: "Meet Our Vendors"
+1. Heading: Our Locations
+2. Google Maps Embed
 
 #### Call-to-Action
 
-1. Heading: "Contact Us to Learn More!"
-2. Link to Contact page: "Get in Touch"
+1. Heading: "Stay in Touch"
+2. Web table: Newsletter form
+2. Link to Contact page: "Contact Us"
 
 #### Footer
 
@@ -112,11 +136,13 @@ Most of the images from the original site are fine to use. I may need to compres
 2. Heading: "Contact Us"
 3. Paragraph: Contact information
 4. Navigation: Same as Header
-5. Territory Acknowledgement
-6. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+5. Social Media Icons
+6. Territory Acknowledgement
+7. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
 
 
-### About Page
+### About Us Page
+==============
 
 #### Header
 
@@ -130,31 +156,58 @@ Same as Home Page
 #### Markets Section
 
 1. Heading: "Our Markets"
-2. List of Markets Cards (Each Card Includes):
+2. Paragraph: Summary of markets
+3. Subheading: "Courtenay/Cumberland Markets" (repeat 3-4 as needed)
+4. List of Markets Cards (Each Card Includes):
     - Heading: Market name
     - Image: Image of market
-    - Paragraph: Summary of market
-3. Link to About / Markets page: "Learn More"
-4. 
+    - Paragraph: Market information
+5. Link to About / Markets page: "Learn More"
 
 #### Vendors & Products Section
 
 1. Heading: "Our Vendors & Products"
 2. Paragraph: Summary of vendors and their products
-3. Link to About / Vendors page: "Learn More"
+3. Link to About / Vendors page: "Meet Our Vendors"
 
 #### Call-to-Action
 
-1. Heading: "Become A Vendor"
-2. Link to Contact page: "Apply Here"
+Same as Home Page
 
 #### Footer
 
 Same as Home Page
 
 
-### Contact
+### Apply Here Page
+===========
 
 #### Header
 
 Same as on Home Page
+
+#### Hero Section
+
+1. Heading: "Apply Here"
+
+#### Application Information Section
+
+1. Heading: "How to Apply"
+2. Paragraph: Information about the application process
+
+#### Applications Section
+
+1. Heading: "Applications"
+2. List of Applications Cards (Each Card Includes):
+    - Heading: "Vendors & Musicians" "Volunteers" "Community Table"
+    - Image: Picture of vendor/musician/volunteer/community table
+    - Paragraph: Information about applications
+    - Link to Apply Here / Relevant page: "Apply Now"
+
+#### Call-to-Action
+
+Same as Home Page
+
+#### Footer
+
+Same as Home Page
