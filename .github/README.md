@@ -81,19 +81,77 @@ Most of the images from the original site are fine to use. I may need to compres
 
 #### Hero Section
 
-1. Heading:
+1. Heading: Welcome to the Comox Valley Farmer's Market!
 2. Image: Use group photo from gallery on current site
-3. CTA: 
+3. Link to About page: "Learn more"
 
 #### About Section
 
-####
+1. Heading: Our Markets
+2. List of Markets Cards (Each Card Includes):
+    - Heading: Market name
+    - Image: Image of market
+    - Paragraph: Summary of market
+3. Paragraph: Summary of markets
+4. Link to About / Markets page: "View Our Markets"
+
+#### Benefits Section
+
+1. Heading: "Our Vendors & Products"
+2. Paragraph: Summary of vendors and their products
+3. Link to About / Vendors page: "Meet Our Vendors"
+
+#### Call-to-Action
+
+1. Heading: "Contact Us to Learn More!"
+2. Link to Contact page: "Get in Touch"
+
+#### Footer
+
+1. Logo
+2. Heading: "Contact Us"
+3. Paragraph: Contact information
+4. Navigation: Same as Header
+5. Territory Acknowledgement
+6. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+
 
 ### About Page
 
 #### Header
 
-Same as on Home Page
+Same as Home Page
+
+#### Hero Section
+
+1. Heading: "About Us"
+2. Image: Same as official site
+
+#### Markets Section
+
+1. Heading: "Our Markets"
+2. List of Markets Cards (Each Card Includes):
+    - Heading: Market name
+    - Image: Image of market
+    - Paragraph: Summary of market
+3. Link to About / Markets page: "Learn More"
+4. 
+
+#### Vendors & Products Section
+
+1. Heading: "Our Vendors & Products"
+2. Paragraph: Summary of vendors and their products
+3. Link to About / Vendors page: "Learn More"
+
+#### Call-to-Action
+
+1. Heading: "Become A Vendor"
+2. Link to Contact page: "Apply Here"
+
+#### Footer
+
+Same as Home Page
+
 
 ### Contact
 
