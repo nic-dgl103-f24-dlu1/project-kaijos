@@ -78,7 +78,7 @@ Most of the images from the original site are fine to use. I will need to compre
 The official logo uses the typeface Filson (guessed using https://www.myfonts.com/pages/whatthefont). Because Filson isn't available on Google Fonts, I'm instead using the following:
 
 - Headlines: Lato
-- Body Copy: Montserrat
+- Body Copy: Ubuntu
 
 ## Website Content
 ===================
