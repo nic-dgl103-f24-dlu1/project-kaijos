@@ -153,3 +153,7 @@ header .nav-select {
 .about img {
     border-radius: 8px;
 }
+
+.about-flex-img {
+    margin-top: 10vw;
+}
