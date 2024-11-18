@@ -98,3 +98,18 @@ header .nav-select {
     display: flex;
     flex-direction: column;
 }
+
+/*-------- HERO ---------*/
+
+.hero {
+    background-image: url("images/hero-2.png");
+    background-size: 100%;
+    text-align: center;
+}
+
+/*transparent background*/
+.hero h1 {
+    background: #fefae09a;
+    border-radius: 10%;
+}
+
