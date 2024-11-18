@@ -53,12 +53,17 @@ header img {
     height: 100%;
 }
 
+header .toggle {
+    /* Increases icon size */
+    font-size: 3rem;
+}
+
 header nav {
     text-align: right;
 }
 
 header nav ul {
-    /* Hides nav items until icon is clicked*/
+    /* Hides nav items until icon is clicked */
     display: none;
 }
 
