@@ -82,6 +82,7 @@ header .nav-select {
     display: inline-block;
     background: #283618;
     color: #FEFAE0;
+    padding: 15px 30px;
 }
 
 .show-items {
