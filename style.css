@@ -60,6 +60,7 @@ header .toggle {
 
 header nav {
     text-align: right;
+    padding: 16px 0; 
 }
 
 header nav ul {
