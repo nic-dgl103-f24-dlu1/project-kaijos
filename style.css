@@ -134,7 +134,7 @@ header .nav-select {
     padding-bottom: 5%;
 }
 
-.about div {
+.about-flex {
     display: flex;
     flex-direction: column;
 }
