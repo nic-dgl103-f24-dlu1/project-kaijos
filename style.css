@@ -70,6 +70,7 @@ header nav {
 header nav ul {
     /* Hides nav items until icon is clicked */
     display: none;
+    line-height: 2.5;
 }
 
 header li {
