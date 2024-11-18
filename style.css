@@ -66,4 +66,7 @@ header li {
     list-style-type: none;
 }
 
+.show-items {
+    display: flex;
+    flex-direction: column;
 }
