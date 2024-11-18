@@ -127,6 +127,7 @@ header .nav-select {
 
 /*-------- ABOUT ---------*/
 
-.about {
+.about h2 {
+    border-bottom: 1px solid var(--secondary-color);
     text-align: center;
 }
