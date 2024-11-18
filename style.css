@@ -157,3 +157,8 @@ header .nav-select {
 .about-flex-img {
     margin-top: 10vw;
 }
+
+.video iframe {
+    width: 100vw;
+    height: auto;
+}
