@@ -4,7 +4,7 @@
     --text-color: #222;
     --primary-color: #283618;
     --secondary-color: #606C38;
-    --accent-color: #BC6C25;
+    --accent-color: #ff9419;
     --bg-color: #f3f3f3;
 }
 
@@ -50,6 +50,17 @@ h2 {
 h3 {
     font-size: 2.1rem;
 }
+
+a.button {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 26px 0;
+    padding: 12px 48px;
+  }
 
 /*-------- UTILITY ---------*/
 
