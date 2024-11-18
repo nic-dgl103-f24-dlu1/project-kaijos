@@ -44,6 +44,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -53,7 +54,7 @@ h3 {
 /*-------- UTILITY ---------*/
 
 .content-width {
-    padding: 20px;
+    padding: 10vw;
 }
 
 /*-------- HEADER ---------*/
