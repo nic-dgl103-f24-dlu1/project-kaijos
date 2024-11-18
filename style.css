@@ -51,13 +51,9 @@ header a {
 
 header img {
     height: 100%;
-header nav ul a {
 header nav ul {
     /* Hides nav items until icon is clicked*/
     display: none;
-    list-style-type: none;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 header li {
