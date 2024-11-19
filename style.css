@@ -196,3 +196,8 @@ header .nav-select {
     text-transform: uppercase;
 }
 
+/*-------- DIRECTIONS ---------*/
+
+.directions iframe {
+    width: 100%;
+}
