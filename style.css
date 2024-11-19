@@ -184,6 +184,7 @@ header .nav-select {
 }
 
 .markets-flex img {
-    max-width: 100%;
+    max-width: 90%;
+    padding-top: 5%;
 }
 
