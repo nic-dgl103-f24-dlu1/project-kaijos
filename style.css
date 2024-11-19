@@ -163,3 +163,6 @@ header .nav-select {
 
 /*-------- MARKETS ---------*/
 
+.markets h3 {
+    text-align: center;
+}
