@@ -45,6 +45,10 @@ h1 {
 h2 {
     font-size: 3rem;
     text-transform: uppercase;
+    border-bottom: 1px solid var(--secondary-color);
+    text-align: center;
+    margin: 15% 20px 5%;
+    padding-bottom: 5%;
 }
 
 h3 {
@@ -137,13 +141,6 @@ header .nav-select {
 }
 
 /*-------- ABOUT ---------*/
-
-.about h2 {
-    border-bottom: 1px solid var(--secondary-color);
-    text-align: center;
-    margin: 15% 20px 5%;
-    padding-bottom: 5%;
-}
 
 .about-flex {
     display: flex;
