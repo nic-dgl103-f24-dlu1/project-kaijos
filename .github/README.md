@@ -1,8 +1,6 @@
 # Project Website Plan Content
-==============================
 
 ## Project Summary
-==================
 
 Website: Comox Valley Farmer's Market
 URL: https://cvfm.ca/  
@@ -39,7 +37,6 @@ Other issues with the site include:
 - Accessibility (ex. the "apply here" page includes a table as an image instead of code)
 
 ## Look and Feel
-=================
 
 ### Mood
 
@@ -81,7 +78,6 @@ The official logo uses the typeface Filson (guessed using https://www.myfonts.co
 - Body Copy: Ubuntu
 
 ## Website Content
-===================
 
 ### Home Page
 =============
