@@ -175,6 +175,7 @@ header .nav-select {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    row-gap: 30px;
 }
 
 .markets-flex-item {
