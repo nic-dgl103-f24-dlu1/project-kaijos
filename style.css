@@ -210,4 +210,7 @@ section form {
     padding: 20px;
     margin: 0 auto;
 }
+
+section form legend {
+    font: 2.1rem "Lato", sans-serif;
 }
