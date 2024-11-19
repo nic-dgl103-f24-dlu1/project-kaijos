@@ -177,12 +177,12 @@ header .nav-select {
     text-align: center;
 }
 
-.markets-flex img {
-    max-width: 100%;
-}
-
 .markets-flex-item {
     background: #fff;
     border-radius: 8px;
+}
+
+.markets-flex img {
+    max-width: 100%;
 }
 
