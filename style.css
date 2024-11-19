@@ -174,4 +174,11 @@ header .nav-select {
     text-align: center;
 }
 
+.markets-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+    text-align: center;
+}
 }
