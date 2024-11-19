@@ -142,6 +142,10 @@ header .nav-select {
 
 /*-------- ABOUT ---------*/
 
+.about h2 {
+    margin-bottom: 0;
+}
+
 .about-flex {
     display: flex;
     flex-direction: column;
@@ -149,9 +153,6 @@ header .nav-select {
 
 .about img {
     border-radius: 8px;
-}
-
-.about-flex-img {
     margin-top: 10vw;
 }
 
