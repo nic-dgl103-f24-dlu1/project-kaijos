@@ -178,6 +178,10 @@ header .nav-select {
     text-align: center;
 }
 
+.markets-flex img {
+    max-width: 100%;
+}
+
 .markets-flex-1 {
     border-radius: 8px;
     padding: 0 50px;
