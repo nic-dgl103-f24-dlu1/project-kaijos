@@ -111,6 +111,7 @@ header img {
 header .toggle {
     /* Increases icon size */
     font-size: 3rem;
+    color: var(--dark-color);
 }
 
 header nav {
