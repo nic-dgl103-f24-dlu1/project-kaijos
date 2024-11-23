@@ -290,3 +290,7 @@ footer img {
     width: 100px;
     height: auto;
 }
+
+footer h2 {
+    font-size: 2.1rem;
+}
