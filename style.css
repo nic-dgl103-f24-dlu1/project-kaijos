@@ -212,3 +212,7 @@ section form {
 section form legend {
     font: 2.1rem "Lato", sans-serif;
 }
+
+label, input {
+    width: 100%;
+}
