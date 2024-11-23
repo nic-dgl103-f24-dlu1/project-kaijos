@@ -129,12 +129,15 @@ The official logo uses the typeface Filson (guessed using https://www.myfonts.co
 #### Footer
 
 1. Logo
-2. Heading: "Contact Us"
-3. Paragraph: Contact information
-4. Navigation: Same as Header
-5. Social Media Icons
-6. Territory Acknowledgement
-7. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+2. Paragraph: General information about CVFM
+3. Paragraph: Territory Acknowledgement
+4. Heading: "Quick Links"
+5. Navigation: Same as Header
+6. Heading: "Contact Us"
+7. Paragraph: Contact information
+8. Heading: "Social Media"
+9. Social Media Icons
+10. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
 
 
 ### About Us Page
