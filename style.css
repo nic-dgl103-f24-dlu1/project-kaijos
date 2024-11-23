@@ -218,4 +218,6 @@ legend, input {
     margin-bottom: 30px;
 }
 
+input {
+    padding: 10px;
 }
