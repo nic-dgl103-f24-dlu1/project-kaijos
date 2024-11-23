@@ -293,7 +293,8 @@ footer h2 {
 }
 
 /* matches padding for cards */
-footer ul {
+.footer-border {
+    border-left: 5px solid var(--primary-color);
     padding: 0 20px;
 }
 
@@ -304,8 +305,4 @@ footer ul li {
 footer ul a {
     color: var(--white);
     text-decoration: none;
-}
-
-.footer-border {
-    border-left: 5px solid var(--primary-color);
 }
