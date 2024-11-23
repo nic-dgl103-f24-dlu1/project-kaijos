@@ -235,9 +235,25 @@ input {
     border-radius: 8px;
 }
 
+.wrapper-button {
+    display: flex;
+    justify-content: space-between;
+}
+
 input[type="reset"] {
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-color);
     background-color: var(--white);
+    color: var(--primary-color);
+    padding: 12px 20px;
+    width: auto;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white);
     padding: 12px 20px;
     width: auto;
     cursor: pointer;
