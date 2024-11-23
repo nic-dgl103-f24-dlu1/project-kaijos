@@ -1,7 +1,7 @@
 /*-------- VARIABLES ---------*/
 
 :root {
-    --text-color: #222;
+    --dark-color: #222;
     --primary-color: #283618;
     --secondary-color: #606C38;
     --accent-color: #ff9419;
@@ -20,7 +20,7 @@ html {
 
 body {
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--dark-color);
     font-size: 1.6rem;
     font-family: "Ubuntu", sans-serif;
     line-height: 1.5;
