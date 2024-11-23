@@ -185,16 +185,12 @@ header .nav-select {
 .markets-flex-item {
     background: #fff;
     border-radius: 8px;
+    padding: 5%;
 }
 
 .markets-flex img {
     width: 100%;
     height: 40vh;
-    padding: 5% 5% 0;
-}
-
-.markets-flex-item p, h3 {
-    padding: 0 5% 0;
 }
 
 .markets-flex h3 {
