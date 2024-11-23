@@ -215,4 +215,6 @@ section form legend {
 
 label, input {
     width: 100%;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
