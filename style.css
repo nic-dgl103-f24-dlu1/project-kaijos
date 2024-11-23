@@ -80,7 +80,7 @@ img {
 .card {
     background: var(--white);
     border-radius: 8px;
-    padding: 5%;
+    padding: 20px;
 }
 
 .content-width {
