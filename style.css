@@ -213,7 +213,9 @@ header .nav-select {
 .newsletter h2 {
     color: var(--bg-color);
     border: none;
+    padding: 0;
 }
+
 section form {
     margin: 0 auto;
 }
