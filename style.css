@@ -139,13 +139,15 @@ header .nav-select {
     background-image: url("images/hero-2.png");
     background-size: 100%;
     text-align: center;
+    color: #fff;
 }
 
-/*transparent background*/
+/*transparent background
 .hero h1 {
     background: #f8f8f89a;
     border-radius: 10%;
 }
+*/
 
 /*-------- ABOUT ---------*/
 
