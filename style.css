@@ -310,3 +310,10 @@ footer ul a {
 footer .nav-select {
     text-decoration: underline;
 }
+
+.footer-bottom {
+    background-color: var(--white);
+    color: var(--dark-color);
+    padding: 20px;
+    width: 100vw;
+}
