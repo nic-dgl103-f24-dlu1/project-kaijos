@@ -4,7 +4,7 @@
     --dark-color: #222;
     --primary-color: #495F2B;
     --accent-color: #ff9419;
-    --bg-color: #f3f3f3;
+    --bg-color: #ececec;
     --white: #fff;
 }
 
@@ -157,6 +157,10 @@ header .nav-select {
 
 /*-------- ABOUT ---------*/
 
+.about {
+    background-color: var(--white);
+}
+
 .about h2 {
     margin-bottom: 0;
 }
@@ -199,6 +203,10 @@ header .nav-select {
 }
 
 /*-------- DIRECTIONS ---------*/
+
+.directions {
+    background-color: var(--white);
+}
 
 .directions iframe {
     width: 100%;
