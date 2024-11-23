@@ -222,8 +222,6 @@ header .nav-select {
     padding: 0;
 }
 
-
-
 section form legend {
     font: 2.1rem "Lato", sans-serif;
 }
@@ -292,6 +290,11 @@ footer img {
 footer h2 {
     border-bottom: none;
     font-size: 2.1rem;
+}
+
+/* matches padding for cards */
+footer ul {
+    padding: 0 20px;
 }
 
 footer ul li {
