@@ -51,7 +51,7 @@ h1 {
 h2 {
     font-size: 3rem;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--primary-color);
     padding-bottom: 5%;
 }
 
