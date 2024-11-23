@@ -234,4 +234,12 @@ input {
     border: 1px solid var(--dark-color);
     border-radius: 8px;
 }
+
+input[type="reset"] {
+    border: 1px solid var(--accent-color);
+    background-color: var(--white);
+    padding: 12px 20px;
+    width: auto;
+    cursor: pointer;
+    border-radius: 8px;
 }
