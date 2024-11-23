@@ -6,6 +6,7 @@
     --secondary-color: #606C38;
     --accent-color: #ff9419;
     --bg-color: #f3f3f3;
+    --white: #fff;
 }
 
 /*-------- GLOBAL STYLES ---------*/
@@ -34,7 +35,7 @@ a {
 .card {
     padding: 5%;
     border-radius: 8px;
-    background: #fff;
+    background: var(--white);
 }
 
 /*-------- TYPOGRAPHY ---------*/
@@ -144,7 +145,7 @@ header .nav-select {
     background-image: url("images/hero-2.png");
     background-size: 100%;
     text-align: center;
-    color: #fff;
+    color: var(--white);
 }
 
 /*transparent background
