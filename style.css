@@ -296,6 +296,15 @@ footer h2 {
     font-size: 2.1rem;
 }
 
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul a {
+    color: var(--white);
+    text-decoration: none;
+}
+
 .footer-border {
     border-left: 5px solid var(--primary-color);
 }
