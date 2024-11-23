@@ -213,8 +213,9 @@ section form legend {
     font: 2.1rem "Lato", sans-serif;
 }
 
-label, input {
+legend, input {
     width: 100%;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
+}
+
 }
