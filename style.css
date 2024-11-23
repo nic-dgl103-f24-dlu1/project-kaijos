@@ -46,7 +46,6 @@ h2 {
     font-size: 3rem;
     text-transform: uppercase;
     border-bottom: 1px solid var(--secondary-color);
-    text-align: center;
     padding-bottom: 5%;
 }
 
