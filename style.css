@@ -257,6 +257,11 @@ input[type="reset"] {
     cursor: pointer;
 }
 
+/* turns button a different color while hovering */
+input[type="reset"]:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
 input[type="submit"] {
     /* layout */
     padding: 12px 20px;
@@ -266,4 +271,9 @@ input[type="submit"] {
     border-radius: 8px;
     color: var(--white);
     cursor: pointer;
+}
+
+/* turns button a different color while hovering */
+input[type="submit"]:hover {
+    background-color: #567032;
 }
