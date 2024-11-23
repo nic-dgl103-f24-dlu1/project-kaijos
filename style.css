@@ -282,6 +282,10 @@ footer {
     color: var(--white);
 }
 
+.footer-top {
+    padding: 50px 20px;
+}
+
 footer img {
     width: 100px;
     height: auto;
