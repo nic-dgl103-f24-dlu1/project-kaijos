@@ -321,3 +321,14 @@ footer .nav-select {
     padding: 20px;
     width: 100vw;
 }
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+
+@media only screen and (min-width: 1200px) {
+/*-------- MEDIUM UTILITY ---------*/
+
+.content-width {
+    max-width: 1200px;
+}
+
+}
