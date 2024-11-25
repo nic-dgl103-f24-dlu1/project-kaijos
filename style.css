@@ -151,6 +151,7 @@ header .nav-select {
     background-image: url("images/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
     color: var(--white);
     text-align: center;
 }
