@@ -149,7 +149,8 @@ header .nav-select {
 
 .hero {
     background-image: url("images/hero.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: var(--white);
     text-align: center;
 }
