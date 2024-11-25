@@ -155,6 +155,7 @@ header .nav-select {
     background-position-x: center;
     color: var(--white);
     text-align: center;
+    padding: 15vh 0;
 }
 
 /*-------- ABOUT ---------*/
