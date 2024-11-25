@@ -84,7 +84,8 @@ img {
 }
 
 .content-width {
-    padding: 5vw;
+    width: 334px;
+    margin: auto;
 }
 
 /*-------- HEADER ---------*/
