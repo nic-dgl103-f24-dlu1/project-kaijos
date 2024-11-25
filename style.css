@@ -89,7 +89,7 @@ img {
 
 /*-------- HEADER ---------*/
 
-header {
+header div {
     display: flex;
     justify-content: space-between;
 }

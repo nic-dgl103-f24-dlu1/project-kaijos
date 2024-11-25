@@ -21,7 +21,9 @@
     />
 </head>
 <body>
-    <header class="content-width">
+    <header>
+        <!-- Could apply content-width to <header>, but this makes it easier to change the background of the header if I choose to later on. -->
+        <div class="content-width">
         <a href="#"><img alt="Comox Valley Farmer's Market Logo" src="images/logo.svg"></a>
         <nav>
             <a class="toggle" onclick="showNav()"
@@ -36,6 +38,7 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <section class="hero">
