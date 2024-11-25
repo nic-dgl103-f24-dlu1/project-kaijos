@@ -100,10 +100,6 @@ header a {
     text-transform: uppercase;
 }
 
-header > a {
-    padding: 8.5px 0;
-}
-
 header img {
     height: 60px;
 }
