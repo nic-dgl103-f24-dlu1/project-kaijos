@@ -197,6 +197,10 @@ header .nav-select {
     row-gap: 30px;
 }
 
+.markets-flex .card {
+    max-width: 500px;
+}
+
 .markets-flex img {
     height: 40vh;
     width: 100%;
