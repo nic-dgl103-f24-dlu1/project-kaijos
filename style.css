@@ -86,20 +86,18 @@ img {
 }
 
 .content-width {
-    width: 334px;
-    margin: auto;
+    margin: auto 5vw;
     padding: 50px 0;
 }
 
 /*-------- HEADER ---------*/
 
-/* .content-width Width and Margin values are applied here. I wanted the padding to be smaller so I decided not to apply content-width to the header. */
+/* .content-width Margin value is applied here. I wanted the padding to be smaller so I decided not to apply content-width to the header. */
 header div {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    width: 334px;
-    margin: auto;
+    margin: auto 5vw;
 }
 
 header a {
@@ -350,11 +348,18 @@ footer i {
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
 @media only screen and (min-width: 1200px) {
+
 /*-------- MEDIUM UTILITY ---------*/
 
 .content-width {
-    max-width: 1200px;
+    max-width: 1130px;
     margin: 0 auto;
 }
 
+/*-------- MEDIUM HEADER ---------*/
+
+header div {
+    max-width: 1130px;
+    margin: 0 auto;
+}
 }
