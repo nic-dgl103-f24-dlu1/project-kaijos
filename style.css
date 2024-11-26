@@ -102,11 +102,7 @@ header div {
     margin: auto 5vw;
 }
 
-header a {
-    list-style-type: none;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+/* logo */
 
 /* Applied 60px to both <a> and <img> because <a>'s height is larger otherwise, which will unalign the logo with the nav icon vertically */
 header .logo {
@@ -116,6 +112,8 @@ header .logo {
 header img {
     height: 60px;
 }
+
+/* nav */
 
 header .toggle {
     /* Increases icon size */
@@ -133,6 +131,12 @@ header nav ul {
     display: none;
     line-height: 2.5;
     padding: 0;
+}
+
+header a {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 header li {
@@ -249,9 +253,13 @@ input {
     padding: 10px;
 }
 
+/* required field */
+
 .newsletter span {
     font-weight: bold;
 }
+
+/* submit and reset buttons */
 
 .wrapper-button {
     display: flex;
@@ -302,6 +310,7 @@ footer {
     padding: 50px 5vw;
 }
 
+/* footer logo */
 footer img {
     width: 100px;
     height: auto;
@@ -320,6 +329,8 @@ footer h2 {
     margin: 20px 0;
 }
 
+/* quick links */
+
 footer ul li {
     list-style-type: none;
     margin: 10px 0;
@@ -334,11 +345,13 @@ footer .nav-select {
     text-decoration: underline;
 }
 
+/* social media icons */
 footer i {
     color: var(--white);
     margin-right: 20px;
 }
 
+/* disclaimer */
 .footer-bottom {
     background-color: var(--white);
     color: var(--dark-color);
@@ -359,6 +372,7 @@ footer i {
 
 /*-------- MEDIUM HEADER ---------*/
 
+/* same as .content-width */
 header div {
     max-width: 1130px;
     margin: 0 auto;
@@ -369,10 +383,12 @@ header div {
     display: none;
 }
 
+/* removes previously specified padding to center nav items vertically */
 header nav {
     padding: 0;
 }
 
+/* display nav in row */
 header nav ul {
     display: flex;
     flex-direction: row;
