@@ -250,6 +250,10 @@ input {
     padding: 10px;
 }
 
+.newsletter span {
+    font-weight: bold;
+}
+
 .wrapper-button {
     display: flex;
     justify-content: space-between;
