@@ -219,8 +219,8 @@ header .nav-select {
 }
 
 .directions iframe {
-    height: 330px;
     width: 100%;
+    height: 60vh;
 }
 
 /*-------- CALL-TO-ACTION ---------*/
