@@ -392,6 +392,8 @@ header nav {
 header nav ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 650px;
 }
 
 }
