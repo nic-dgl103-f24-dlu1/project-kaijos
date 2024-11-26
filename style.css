@@ -411,6 +411,7 @@ header ul li:last-of-type a {
 .about-flex {
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: space-between;
     height: 1600px;
     gap: 50px 25px;
 }
