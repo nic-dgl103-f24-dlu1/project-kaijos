@@ -190,16 +190,11 @@ header .nav-select {
 
 /*-------- MARKETS ---------*/
 
-.markets h3 {
-    text-align: center;
-}
-
 .markets-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
-    text-align: center;
 }
 
 .markets-flex img {
