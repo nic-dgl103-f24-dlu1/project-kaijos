@@ -50,6 +50,7 @@ h1 {
 h2 {
     font-size: 3rem;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 h3 {
@@ -213,10 +214,6 @@ header .nav-select {
 
 .directions {
     background-color: var(--white);
-}
-
-.directions h2 {
-    margin-top: 0;
 }
 
 .directions iframe {
