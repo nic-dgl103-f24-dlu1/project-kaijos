@@ -422,4 +422,11 @@ header ul li:last-of-type a {
     margin: 0;
 }
 
+/*-------- LARGE MARKETS ---------*/
+
+.markets-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
 }
