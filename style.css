@@ -490,6 +490,7 @@ header ul li:last-of-type a {
 .footer-top .footer-border {
     display: flex;
     flex-direction: column;
+    gap: 15px 0;
 }
 
 .footer-bottom p {
