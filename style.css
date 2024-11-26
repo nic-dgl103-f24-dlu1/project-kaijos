@@ -481,4 +481,9 @@ header ul li:last-of-type a {
     display: flex;
     flex-direction: column;
 }
+
+.footer-bottom p {
+    max-width: 500px;
+}
+
 }
