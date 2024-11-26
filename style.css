@@ -486,6 +486,10 @@ header ul li:last-of-type a {
 .footer-top section * {
     margin: 0;
 }
+
+.footer-top .footer-border {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-bottom p {
