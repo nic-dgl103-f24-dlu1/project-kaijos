@@ -177,10 +177,6 @@ header .nav-select {
     background-color: var(--white);
 }
 
-.about h2 {
-    margin-bottom: 0;
-}
-
 .about-flex {
     display: flex;
     flex-direction: column;
