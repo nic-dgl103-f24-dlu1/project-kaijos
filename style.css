@@ -328,6 +328,10 @@ footer .nav-select {
     text-decoration: underline;
 }
 
+footer i {
+    color: var(--white);
+}
+
 .footer-bottom {
     background-color: var(--white);
     color: var(--dark-color);
