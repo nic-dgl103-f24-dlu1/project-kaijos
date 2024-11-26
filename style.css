@@ -480,6 +480,9 @@ header ul li:last-of-type a {
 .footer-top section {
     display: flex;
     flex-direction: column;
+    gap: 25px 0;
+}
+
 .footer-top section * {
     margin: 0;
 }
