@@ -183,6 +183,10 @@ header .nav-select {
     gap: 20px 0;
 }
 
+.about-flex img {
+    max-width: 550px;
+}
+
 .video iframe {
     height: auto;
     width: 100vw;
