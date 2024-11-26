@@ -434,4 +434,19 @@ header ul li:last-of-type a {
     width: calc(33% - 2vw);
 }
 
+/*-------- LARGE CALL-TO-ACTION ---------*/
+
+.newsletter > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* center h2 and button vertically */
+.newsletter > div > div {
+    margin: auto 0;
+}
+
+.newsletter form {
+    width: 50%;
+}
 }
