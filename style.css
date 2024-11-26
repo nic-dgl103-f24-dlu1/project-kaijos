@@ -215,9 +215,12 @@ header .nav-select {
     background-color: var(--white);
 }
 
+.directions h2 {
+    margin-top: 0;
+}
+
 .directions iframe {
     height: 330px;
-    margin-top: 50px;
     width: 100%;
 }
 
