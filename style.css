@@ -483,6 +483,7 @@ header ul li:last-of-type a {
 }
 
 .footer-bottom p {
+    margin: 0 auto;
     max-width: 500px;
 }
 
