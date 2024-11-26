@@ -409,7 +409,7 @@ header ul li:last-of-type a {
 
 /* places flex items side by side and wraps items */
 .about-flex {
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     height: 1600px;
     gap: 50px 25px;
