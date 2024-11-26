@@ -413,7 +413,7 @@ header ul li:last-of-type a {
     flex-wrap: wrap;
     justify-content: space-between;
     height: 1600px;
-    gap: 50px 25px;
+    gap: 50px 0;
 }
 
 .about-flex img {
