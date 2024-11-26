@@ -420,4 +420,10 @@ header ul li:last-of-type a {
     flex-wrap: wrap;
 }
 
+.about img {
+    width: 50%;
+    height: 50%;
+    margin: 50px 0;
+}
+
 }
