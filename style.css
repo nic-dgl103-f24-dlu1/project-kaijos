@@ -368,14 +368,14 @@ footer i {
 
 @media only screen and (min-width: 1200px) {
 
-/*-------- MEDIUM UTILITY ---------*/
+/*-------- LARGE UTILITY ---------*/
 
 .content-width {
     max-width: 1130px;
     margin: 0 auto;
 }
 
-/*-------- MEDIUM HEADER ---------*/
+/*-------- LARGE HEADER ---------*/
 
 /* same as .content-width */
 header div {
@@ -411,5 +411,8 @@ header ul li:last-of-type a {
     color: var(--white);
     padding: 12px 24px;
 }
+
+/*-------- LARGE ABOUT ---------*/
+
 
 }
