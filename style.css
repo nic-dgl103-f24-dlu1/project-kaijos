@@ -187,6 +187,10 @@ header .nav-select {
     max-width: 550px;
 }
 
+.about-flex div h2 {
+    display: none;
+}
+
 .video iframe {
     height: auto;
     width: 100vw;
@@ -428,6 +432,14 @@ header ul li:last-of-type a {
     justify-content: space-between;
     height: 1600px;
     gap: 50px 0;
+}
+
+.about-flex > h2 {
+    display: none;
+}
+
+.about-flex div h2 {
+    display: block;
 }
 
 .about-flex img {
