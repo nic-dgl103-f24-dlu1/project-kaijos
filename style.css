@@ -469,6 +469,8 @@ header ul li:last-of-type a {
 
 .footer-top {
     display: flex;
+.footer-top p {
+    max-width: 300px;
 }
 
 }
