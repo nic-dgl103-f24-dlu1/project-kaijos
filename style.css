@@ -237,6 +237,11 @@ header .nav-select {
     margin-bottom: 26px;
 }
 
+/* hides button */
+.newsletter > div > div > a {
+    display: none;
+}
+
 form legend {
     font: 2.1rem "Lato", sans-serif;
 }
@@ -446,7 +451,17 @@ header ul li:last-of-type a {
     margin: auto 0;
 }
 
+/* displays previously hidden block*/
+.newsletter > div > div > a {
+    display: inline-block;
+}
+
 .newsletter form {
     width: 50%;
+}
+
+/* hides last button */
+.newsletter > div > a {
+    display: none;
 }
 }
