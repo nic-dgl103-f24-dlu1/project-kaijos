@@ -206,6 +206,12 @@ header .nav-select {
     text-transform: uppercase;
 }
 
+.markets-flex em {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: bold;
+}
+
 /*-------- DIRECTIONS ---------*/
 
 .directions {
