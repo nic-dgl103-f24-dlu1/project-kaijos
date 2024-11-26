@@ -369,6 +369,10 @@ header div {
     display: none;
 }
 
+header nav {
+    padding: 0;
+}
+
 header nav ul {
     display: flex;
     flex-direction: row;
