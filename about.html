@@ -23,6 +23,106 @@
     <script src="https://kit.fontawesome.com/8629b4aa4a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <!-- Could apply content-width to <header>, but this makes it easier to change the background of the header if I choose to later on. -->
+        <div>
+        <a class="logo" href="#"><img alt="Comox Valley Farmer's Market Logo" src="images/logo.svg"></a>
+        <nav>
+            <a class="toggle" onclick="showNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+            ></a>
+            <ul id="nav-items">
+                <li><a href="home.html" class="nav-select">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="apply.html">Apply Here</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="content-width">
+                <h1>About Us</h1>
+            </div>
+        </section>
+        <section class="directions">
+            <div class="content-width">
+                <h2>Directions</h2>
+                <iframe src="https://www.google.com/maps/d/embed?mid=18SEFrTZbpkeQ788yQ_9y-UcZsc01b73t"></iframe>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="content-width">
+                <div>
+                    <h2>Stay in touch</h2>
+                    <a class="button" href="#">Contact us</a>
+                </div>
+                <form class="card" method="post" action="">
+                    <legend>Join our newsletter</legend>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ex. John">
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Ex. Smith">
+                    <label for="email">Email<span> * (required)</span></label>
+                    <input type="email" id="email" name="email" placeholder="Ex. name@domain.com" required>
+                    <div class="wrapper-button">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+                <!--Added another button here so I could display them in different places depending on the screen size.-->
+                <a class="button" href="#">Contact us</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top content-width">
+            <div>
+                <a href="#"><img alt="Comox Valley Farmer's Market Logo" src="images/logo.svg"></a>
+                <p>Comox Valley Farmer's Market — Bringing local food to local folks since 1992.</p>
+                <p>We respectfully acknowledge that the land we gather on is on the Unceded traditional territory of the K’ómoks First Nation, the traditional keepers of this land.</p>
+            </div>
+            <section>
+                <h2>Quick links</h2>
+                <ul class="footer-border">
+                    <li><a href="home.html" class="nav-select">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="apply.html">Apply Here</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Social media</h2>
+                    <div class="footer-border">
+                        <a href="https://www.facebook.com/cvfarmersmarket"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Cvfarmersmarket"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.tiktok.com/@cvfarmersmarket"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/comox_valley_farmers_market/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UC5ccCDYnQMiyHt-gA4ZDBLg"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+            </section>
+            <section>
+                <h2>Contact us</h2>
+                <div class="footer-border">
+                    <p>info@cvfm.ca</p>
+                    <p>Box 3301, Courtenay, BC, V9N 5N5</p>
+                </div>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p><em>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</em></p>
+        </div>
+    </footer>
+    <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>
 </body>
 </html>
