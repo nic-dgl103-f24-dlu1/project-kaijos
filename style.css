@@ -364,4 +364,15 @@ header div {
     max-width: 1130px;
     margin: 0 auto;
 }
+
+/* hides bars icon */
+.toggle {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
 }
