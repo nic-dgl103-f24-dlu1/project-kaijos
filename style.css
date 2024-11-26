@@ -180,10 +180,7 @@ header .nav-select {
 .about-flex {
     display: flex;
     flex-direction: column;
-}
-
-.about img {
-    margin-top: 10vw;
+    gap: 20px 0;
 }
 
 .video iframe {
