@@ -464,4 +464,11 @@ header ul li:last-of-type a {
 .newsletter > div > a {
     display: none;
 }
+
+/*-------- LARGE CALL-TO-ACTION ---------*/
+
+.footer-top {
+    display: flex;
+}
+
 }
