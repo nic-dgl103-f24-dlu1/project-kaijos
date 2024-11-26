@@ -427,6 +427,11 @@ header ul li:last-of-type a {
 .markets-flex {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1vw;
+    gap: 2vw;
 }
+
+.markets-flex .card {
+    width: calc(33% - 2vw);
+}
+
 }
