@@ -477,4 +477,8 @@ header ul li:last-of-type a {
     max-width: 300px;
 }
 
+.footer-top section {
+    display: flex;
+    flex-direction: column;
+}
 }
