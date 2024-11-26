@@ -414,5 +414,10 @@ header ul li:last-of-type a {
 
 /*-------- LARGE ABOUT ---------*/
 
+/* places flex items side by side and wraps items */
+.about-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 }
