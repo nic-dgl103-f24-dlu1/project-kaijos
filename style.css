@@ -405,4 +405,11 @@ header nav ul {
     width: 650px;
 }
 
+header ul li:last-of-type a {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--white);
+    padding: 12px 24px;
+}
+
 }
