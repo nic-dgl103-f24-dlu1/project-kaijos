@@ -277,7 +277,7 @@ header .nav-select {
 }
 
 .newsletter h2 {
-    color: var(--secondary-color);
+    color: var(--white);
     border: none;
     margin-top: 0;
 }
