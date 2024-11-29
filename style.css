@@ -407,6 +407,10 @@ footer i {
 
 /*--------- Who We Are ---------*/
 
+.about-wwa {
+    background-color: var(--white);
+}
+
 .about-wwa-flex {
     display: flex;
     flex-direction: column;
