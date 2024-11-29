@@ -189,15 +189,15 @@ Same as on Home Page
 
 1. Heading: "Contact Us"
 
-#### Email Section
-
-1. Heading: "Send us an email"
-2. Email Form
-
 #### Board of Directors Section
 
 1. Heading: "Board of Directors 2024-2025"
 2. Table: Board of Directors contact information
+
+#### Email Section
+
+1. Heading: "Send us an email"
+2. Email Form
 
 #### Directions Section
 
