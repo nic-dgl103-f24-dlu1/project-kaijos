@@ -453,6 +453,18 @@ header ul li:last-of-type a {
 
 /*-------- LARGE MARKETS ---------*/
 
+.markets {
+    display: flex;
+}
+
+.markets div {
+    width: 40%;
+}
+
+.markets img {
+    width: 60%;
+}
+
 .markets-flex {
     flex-direction: row;
     flex-wrap: wrap;
