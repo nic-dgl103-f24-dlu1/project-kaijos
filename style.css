@@ -474,17 +474,6 @@ header ul li:last-of-type a {
     width: 50%;
 }
 
-.markets img {
-    width: 40%;
-}
-
-    gap: 2vw;
-}
-
-.markets-flex .card {
-    width: calc(33% - 2vw);
-}
-
 /*-------- LARGE CALL-TO-ACTION ---------*/
 
 .newsletter > div {
