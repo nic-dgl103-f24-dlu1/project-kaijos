@@ -205,8 +205,8 @@ header .nav-select {
 .markets-flex {
     display: flex;
     justify-content: center;
-    row-gap: 30px;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .markets-flex .card {
