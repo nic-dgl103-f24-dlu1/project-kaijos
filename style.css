@@ -510,27 +510,7 @@ header ul li:last-of-type a {
 
 /*-------- Large About ---------*/
 
-/* places flex items side by side and wraps items */
-.about-who-we-are {
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 1600px;
-    gap: 50px 0;
-}
 
-.about-who-we-are > h2 {
-    display: none;
-}
-
-.about-who-we-are div h2 {
-    display: block;
-}
-
-.about-who-we-are img {
-    width: 50%;
-    margin: 0;
-}
 
 /*-------- Large Markets ---------*/
 
@@ -606,5 +586,27 @@ header ul li:last-of-type a {
 /*-------------------- LARGE ABOUT PAGE --------------------*/
 
 /*--------- LARGE WHO WE ARE ---------*/
+
+/* places flex items side by side and wraps items */
+.about-who-we-are {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1600px;
+    gap: 50px 0;
+}
+
+.about-who-we-are > h2 {
+    display: none;
+}
+
+.about-who-we-are div h2 {
+    display: block;
+}
+
+.about-who-we-are img {
+    width: 50%;
+    margin: 0;
+}
 
 }
