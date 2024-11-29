@@ -590,6 +590,10 @@ header ul li:last-of-type a {
     gap: 15px 0;
 }
 
+footer i:hover {
+    color: var(--accent-color);
+}
+
 .footer-bottom p {
     margin: 0 auto;
     max-width: 500px;
