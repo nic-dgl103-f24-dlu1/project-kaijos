@@ -184,7 +184,7 @@ header .nav-select {
 }
 
 .about-flex img {
-    max-width: 50%; 
+    width: 100%; 
 }
 
 .about-flex div h2 {
