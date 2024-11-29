@@ -324,11 +324,6 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-/* turns button a different color while hovering */
-input[type="reset"]:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-}
-
 input[type="submit"] {
     /* layout */
     padding: 12px 20px;
@@ -340,10 +335,6 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* turns button a different color while hovering */
-input[type="submit"]:hover {
-    background-color: #567032;
-}
 
 /*-------- FOOTER ---------*/
 
@@ -577,6 +568,15 @@ header ul li:last-of-type a:hover {
 
 .newsletter form {
     width: 50%;
+}
+
+/* button hover styles */
+input[type="reset"]:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+input[type="submit"]:hover {
+    background-color: #567032;
 }
 
 /* hides last button */
