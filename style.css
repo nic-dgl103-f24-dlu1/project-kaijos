@@ -621,6 +621,8 @@ header ul li:last-of-type a {
     margin: 0;
 }
 
+/* staggers images and text */
+
 .about-wwa-order-1 {
     order: 1;
 }
