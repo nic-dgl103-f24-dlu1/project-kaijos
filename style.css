@@ -470,8 +470,6 @@ header ul li:last-of-type a {
     justify-content: space-between;
 }
 
-.markets div {
-    width: 50%;
 .markets img {
     max-width: 50%;
 }
