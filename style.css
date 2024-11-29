@@ -383,6 +383,16 @@ footer i {
 
 @media only screen and (min-width: 1200px) {
 
+/*-------- LARGE TYPOGRAPHY ---------*/
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
 /*-------- LARGE UTILITY ---------*/
 
 .content-width {
