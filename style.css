@@ -415,28 +415,28 @@ footer i {
 
 /*--------- Markets ---------*/
 
-.about-markets {
+.about-markets-flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.about-markets .card {
+.about-markets-flex .card {
     width: 315px;
 }
 
-.about-markets img {
+.about-markets-flex img {
     object-fit: cover;
     height: 250px;
     width: 100%;
 }
 
-.about-markets h3 {
+.about-markets-flex h3 {
     text-transform: uppercase;
 }
 
-.about-markets em {
+.about-markets-flex em {
     color: var(--primary-color);
     font-style: normal;
     font-weight: bold;
