@@ -472,6 +472,8 @@ header ul li:last-of-type a {
 
 .markets div {
     width: 50%;
+.markets img {
+    max-width: 50%;
 }
 
 /*-------- LARGE CALL-TO-ACTION ---------*/
