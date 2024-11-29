@@ -198,6 +198,10 @@ header .nav-select {
 
 /*-------- MARKETS ---------*/
 
+.markets img {
+    max-width: 100%;
+}
+
 .markets-flex {
     display: flex;
     flex-direction: column;
