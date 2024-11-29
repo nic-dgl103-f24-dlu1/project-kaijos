@@ -579,6 +579,7 @@ header ul li:last-of-type a {
     margin: 0;
 }
 
+/* puts a line to left of items */
 .footer-top .footer-border {
     display: flex;
     flex-direction: column;
@@ -621,7 +622,6 @@ footer i:hover {
 }
 
 /* staggers images and text */
-
 .about-wwa-order-1 {
     order: 1;
 }
