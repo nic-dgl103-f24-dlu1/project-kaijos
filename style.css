@@ -245,6 +245,10 @@ header .nav-select {
 
 /*-------- MARKETS ---------*/
 
+.home-markets {
+    background-color: var(--secondary-color);
+}
+
 .home-markets img {
     max-width: 100%;
 }
@@ -547,7 +551,7 @@ header ul li:last-of-type a:hover {
 
 /*-------- Large Markets ---------*/
 
-.home-markets {
+.home-markets > div {
     display: flex;
     justify-content: space-between;
 }
