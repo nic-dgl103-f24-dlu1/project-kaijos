@@ -414,6 +414,10 @@ footer i {
 
 /*--------- Markets ---------*/
 
+.about-markets {
+    background-color: var(--bg-color);
+}
+
 .about-markets-flex {
     display: flex;
     justify-content: center;
