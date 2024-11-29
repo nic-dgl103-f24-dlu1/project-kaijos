@@ -478,9 +478,6 @@ header ul li:last-of-type a {
     width: 40%;
 }
 
-.markets-flex {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 2vw;
 }
 
