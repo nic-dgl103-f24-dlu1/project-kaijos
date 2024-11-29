@@ -416,6 +416,11 @@ footer i {
 
 .about-markets {
     background-color: var(--bg-color);
+    text-align: center;
+}
+
+.about-markets > div p {
+    margin: 16px auto;
 }
 
 .about-markets-flex {
