@@ -29,7 +29,7 @@ Content hierarchy repeats as needed for media queries.
 
 :root {
     --accent-color: #b4df78;
-    --bg-color: #ececec;
+    --bg-color: #f4ffe0;
     --dark-color: #222;
     --primary-color: #495F2B;
     --white: #fff;
@@ -45,7 +45,6 @@ html {
 }
 
 body {
-    background-color: var(--bg-color);
     color: var(--dark-color);
     font-family: "Ubuntu", sans-serif;
     font-size: 1.6rem;
