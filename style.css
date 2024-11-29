@@ -571,9 +571,8 @@ header ul li:last-of-type a:hover {
     display: inline-block;
 }
 
-.button:hover {
-    background-color: var(--white);
-    border: 3px solid var(--white);
+.newsletter .button:hover {
+    background-color: var(--bg-color);
 }
 
 .newsletter form {
