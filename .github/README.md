@@ -178,7 +178,7 @@ Same as Home Page
 Same as Home Page
 
 
-### Apply Here Page
+### Contact Page
 ===========
 
 #### Header
@@ -187,21 +187,19 @@ Same as on Home Page
 
 #### Hero Section
 
-1. Heading: "Apply Here"
+1. Heading: "Contact Us"
 
-#### Application Information Section
+#### Email Section
 
-1. Heading: "How to Apply"
-2. Paragraph: Information about the application process
+1. Heading: "Send us an email"
+2. Email Form
 
-#### Applications Section
+#### Board of Directors Section
 
-1. Heading: "Applications"
-2. List of Applications Cards (Each Card Includes):
-    - Heading: "Vendors & Musicians" "Volunteers" "Community Table"
-    - Image: Picture of vendor/musician/volunteer/community table
-    - Paragraph: Information about applications
-    - Link to Apply Here / Relevant page: "Apply Now"
+1. Heading: "Board of Directors 2024-2025"
+2. Table: Board of Directors contact information
+
+#### Directions Section
 
 #### Call-to-Action
 
