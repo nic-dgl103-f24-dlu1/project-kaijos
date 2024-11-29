@@ -233,6 +233,10 @@ header .nav-select {
     background-color: var(--white);
 }
 
+.home-about img {
+    width: 100%;
+}
+
 /*
 
 .video iframe {
