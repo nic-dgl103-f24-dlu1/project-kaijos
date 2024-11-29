@@ -184,7 +184,7 @@ header .nav-select {
 }
 
 .about-flex img {
-    max-width: 550px;
+    max-width: 50%; 
 }
 
 .about-flex div h2 {
@@ -457,7 +457,7 @@ header ul li:last-of-type a {
 }
 
 .about-flex img {
-    width: 600px;
+    width: 50%;
     margin: 0;
 }
 
@@ -468,11 +468,11 @@ header ul li:last-of-type a {
 }
 
 .markets div {
-    width: 40%;
+    width: 50%;
 }
 
 .markets img {
-    width: 60%;
+    width: 40%;
 }
 
 .markets-flex {
