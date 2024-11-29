@@ -473,6 +473,12 @@ h2 {
     margin: 0 auto;
 }
 
+.button:hover {
+    background-color: #ffffff00;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+}
+
 /*-------------------- LARGE HERO PAGE --------------------*/
 
 /*-------- Large Header ---------*/
