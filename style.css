@@ -427,6 +427,8 @@ footer i {
 
 .about-markets-flex .card {
     width: 315px;
+    border: 1px solid var(--primary-color);
+    text-align: left;
 }
 
 .about-markets-flex img {
