@@ -228,7 +228,7 @@ header .nav-select {
 
 /*-------- ABOUT ---------*/
 
-.about {
+.home-about {
     background-color: var(--white);
 }
 
@@ -428,17 +428,17 @@ footer i {
 
 /*--------- About / Who We Are ---------*/
 
-.about-flex {
+.about-who-we-are {
     display: flex;
     flex-direction: column;
     gap: 20px 0;
 }
 
-.about-flex img {
+.about-who-we-are img {
     width: 100%; 
 }
 
-.about-flex div h2 {
+.about-who-we-are div h2 {
     display: none;
 }
 
@@ -505,7 +505,7 @@ header ul li:last-of-type a {
 /*-------- LARGE ABOUT ---------*/
 
 /* places flex items side by side and wraps items */
-.about-flex {
+.about-who-we-are {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -513,15 +513,15 @@ header ul li:last-of-type a {
     gap: 50px 0;
 }
 
-.about-flex > h2 {
+.about-who-we-are > h2 {
     display: none;
 }
 
-.about-flex div h2 {
+.about-who-we-are div h2 {
     display: block;
 }
 
-.about-flex img {
+.about-who-we-are img {
     width: 50%;
     margin: 0;
 }
