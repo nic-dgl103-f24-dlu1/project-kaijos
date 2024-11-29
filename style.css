@@ -567,8 +567,13 @@ header ul li:last-of-type a:hover {
 }
 
 /* displays previously hidden block*/
-.newsletter > div > div > a {
+.newsletter > div > div > .button {
     display: inline-block;
+}
+
+.button:hover {
+    background-color: var(--white);
+    border: 3px solid var(--white);
 }
 
 .newsletter form {
