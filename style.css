@@ -210,7 +210,7 @@ header .nav-select {
 }
 
 .markets-flex .card {
-    max-width: 500px;
+    width: 315px;
 }
 
 .markets-flex img {
