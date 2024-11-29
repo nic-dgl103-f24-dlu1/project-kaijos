@@ -480,6 +480,8 @@ h2 {
     background-color: #ffffff00;
     color: var(--primary-color);
     border: 3px solid var(--primary-color);
+    /*padding on non-hover button: 12px 48px, reduced by 3px to account for border. prevents button from expanding*/
+    padding: 9px 45px;
 }
 
 /*-------------------- LARGE HERO PAGE --------------------*/
