@@ -562,10 +562,6 @@ header ul li:last-of-type a:hover {
     display: inline-block;
 }
 
-.newsletter .button:hover {
-    background-color: var(--bg-color);
-}
-
 .newsletter form {
     width: 50%;
 }
