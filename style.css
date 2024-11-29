@@ -382,11 +382,6 @@ footer ul li {
 
 footer ul a {
     color: var(--white);
-    text-decoration: none;
-}
-
-footer .nav-select {
-    text-decoration: underline;
 }
 
 /* social media icons */
