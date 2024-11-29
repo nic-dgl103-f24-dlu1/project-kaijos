@@ -413,7 +413,6 @@ footer i {
 
 .about-wwa-flex {
     display: flex;
-    flex-direction: column;
     gap: 20px 0;
 }
 
