@@ -246,33 +246,6 @@ header .nav-select {
     max-width: 100%;
 }
 
-.about-markets {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.about-markets .card {
-    width: 315px;
-}
-
-.about-markets img {
-    object-fit: cover;
-    height: 250px;
-    width: 100%;
-}
-
-.about-markets h3 {
-    text-transform: uppercase;
-}
-
-.about-markets em {
-    color: var(--primary-color);
-    font-style: normal;
-    font-weight: bold;
-}
-
 /*-------- DIRECTIONS ---------*/
 
 .directions {
@@ -426,7 +399,7 @@ footer i {
 
 /*-------------------- ABOUT PAGE --------------------*/
 
-/*--------- About / Who We Are ---------*/
+/*--------- Who We Are ---------*/
 
 .about-who-we-are {
     display: flex;
@@ -443,12 +416,43 @@ footer i {
 }
 
 
+.about-markets {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/*--------- Markets ---------*/
+
+.about-markets .card {
+    width: 315px;
+}
+
+.about-markets img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.about-markets h3 {
+    text-transform: uppercase;
+}
+
+.about-markets em {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: bold;
+}
+
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
 @media only screen and (min-width: 1200px) {
 
-/*-------- LARGE TYPOGRAPHY ---------*/
+/*------------------- LARGE GLOBAL STYLES -------------------*/
+
+/*-------- Large Typography ---------*/
 
 h1 {
     font-size: 5rem;
@@ -458,14 +462,16 @@ h2 {
     font-size: 3.2rem;
 }
 
-/*-------- LARGE UTILITY ---------*/
+/*-------- Large Utility---------*/
 
 .content-width {
     max-width: 1130px;
     margin: 0 auto;
 }
 
-/*-------- LARGE HEADER ---------*/
+/*-------------------- LARGE HERO PAGE --------------------*/
+
+/*-------- Large Header ---------*/
 
 /* same as .content-width */
 header div {
@@ -502,7 +508,7 @@ header ul li:last-of-type a {
     padding: 12px 24px;
 }
 
-/*-------- LARGE ABOUT ---------*/
+/*-------- Large About ---------*/
 
 /* places flex items side by side and wraps items */
 .about-who-we-are {
@@ -526,7 +532,7 @@ header ul li:last-of-type a {
     margin: 0;
 }
 
-/*-------- LARGE MARKETS ---------*/
+/*-------- Large Markets ---------*/
 
 .home-markets {
     display: flex;
@@ -538,7 +544,7 @@ header ul li:last-of-type a {
     max-width: 50%;
 }
 
-/*-------- LARGE CALL-TO-ACTION ---------*/
+/*-------- Large Call-To-Action ---------*/
 
 .newsletter > div {
     display: flex;
@@ -564,7 +570,7 @@ header ul li:last-of-type a {
     display: none;
 }
 
-/*-------- LARGE CALL-TO-ACTION ---------*/
+/*-------- Large Footer ---------*/
 
 .footer-top {
     display: flex;
@@ -596,5 +602,9 @@ header ul li:last-of-type a {
     margin: 0 auto;
     max-width: 500px;
 }
+
+/*-------------------- LARGE ABOUT PAGE --------------------*/
+
+/*--------- LARGE WHO WE ARE ---------*/
 
 }
