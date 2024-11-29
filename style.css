@@ -407,20 +407,21 @@ footer i {
 
 /*--------- Who We Are ---------*/
 
-.about-who-we-are {
+.about-wwa-flex {
     display: flex;
     flex-direction: column;
     gap: 20px 0;
 }
 
-.about-who-we-are img {
+.about-wwa-flex img {
     width: 100%; 
 }
 
-.about-who-we-are div h2 {
+.about-wwa-flex div h2 {
     display: none;
 }
 
+/*--------- Markets ---------*/
 
 .about-markets {
     display: flex;
@@ -428,8 +429,6 @@ footer i {
     flex-wrap: wrap;
     gap: 30px;
 }
-
-/*--------- Markets ---------*/
 
 .about-markets .card {
     width: 315px;
@@ -597,7 +596,7 @@ header ul li:last-of-type a {
 /*--------- LARGE WHO WE ARE ---------*/
 
 /* places flex items side by side and wraps items */
-.about-who-we-are {
+.about-wwa-flex {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -605,15 +604,15 @@ header ul li:last-of-type a {
     gap: 50px 0;
 }
 
-.about-who-we-are > h2 {
+.about-wwa-flex > h2 {
     display: none;
 }
 
-.about-who-we-are div h2 {
+.about-wwa-flex div h2 {
     display: block;
 }
 
-.about-who-we-are img {
+.about-wwa-flex img {
     width: 50%;
     margin: 0;
 }
