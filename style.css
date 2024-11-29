@@ -514,6 +514,15 @@ header ul li:last-of-type a {
     border-radius: 10px;
     color: var(--white);
     padding: 12px 24px;
+    text-decoration: none;
+}
+
+header ul li:last-of-type a:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    /*original padding -3px to account for the border. prevents the button from expanding in size.*/
+    padding: 9px 21px;
 }
 
 /*-------- Large About ---------*/
