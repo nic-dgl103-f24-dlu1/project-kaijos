@@ -1,3 +1,29 @@
+/*
+TABLE OF CONTENTS:
+1. Global Styles
+    - Variables
+    - Styles
+    - Typography
+    - Utility
+2. Home Page
+    - Header
+    - Hero
+    - About Us
+    - Our Markets
+    - Newsletter
+    - Directions
+    - Footer
+4. About Page
+    - Who We Are
+    - Our Markets
+    - Our Vendors
+5. Apply Page
+
+Content hierarchy repeats as needed for media queries.
+*/
+
+/*-------------------- GLOBAL STYLES --------------------*/
+
 /*-------- VARIABLES ---------*/
 
 :root {
@@ -8,7 +34,7 @@
     --white: #fff;
 }
 
-/*-------- GLOBAL STYLES ---------*/
+/*-------- STYLES ---------*/
 * {
     box-sizing: border-box;
 }
@@ -91,6 +117,8 @@ img {
     margin: auto 5vw;
     padding: 50px 0;
 }
+
+/*-------------------- HOME PAGE --------------------*/
 
 /*-------- HEADER ---------*/
 
@@ -204,20 +232,6 @@ header .nav-select {
     background-color: var(--white);
 }
 
-.about-flex {
-    display: flex;
-    flex-direction: column;
-    gap: 20px 0;
-}
-
-.about-flex img {
-    width: 100%; 
-}
-
-.about-flex div h2 {
-    display: none;
-}
-
 /*
 
 .video iframe {
@@ -228,32 +242,32 @@ header .nav-select {
 
 /*-------- MARKETS ---------*/
 
-.markets img {
+.home-markets img {
     max-width: 100%;
 }
 
-.markets-flex {
+.about-markets {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.markets-flex .card {
+.about-markets .card {
     width: 315px;
 }
 
-.markets-flex img {
+.about-markets img {
     object-fit: cover;
     height: 250px;
     width: 100%;
 }
 
-.markets-flex h3 {
+.about-markets h3 {
     text-transform: uppercase;
 }
 
-.markets-flex em {
+.about-markets em {
     color: var(--primary-color);
     font-style: normal;
     font-weight: bold;
@@ -410,6 +424,26 @@ footer i {
     width: 100vw;
 }
 
+/*-------------------- ABOUT PAGE --------------------*/
+
+/*--------- About / Who We Are ---------*/
+
+.about-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.about-flex img {
+    width: 100%; 
+}
+
+.about-flex div h2 {
+    display: none;
+}
+
+
+
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
 @media only screen and (min-width: 1200px) {
@@ -494,13 +528,13 @@ header ul li:last-of-type a {
 
 /*-------- LARGE MARKETS ---------*/
 
-.markets {
+.home-markets {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-.markets img {
+.home-markets img {
     max-width: 50%;
 }
 
