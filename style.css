@@ -234,6 +234,7 @@ header .nav-select {
 }
 
 .home-about img {
+    margin-bottom: 25px;
     width: 100%;
 }
 
@@ -515,7 +516,10 @@ header ul li:last-of-type a {
 
 /*-------- Large About ---------*/
 
-
+.home-about img {
+    float: right;
+    width: 50%;
+}
 
 /*-------- Large Markets ---------*/
 
