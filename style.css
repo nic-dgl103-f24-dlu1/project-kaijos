@@ -662,7 +662,7 @@ footer i:hover {
 
 /*-------------------- LARGE ABOUT PAGE --------------------*/
 
-/*--------- LARGE WHO WE ARE ---------*/
+/*--------- Large Who We Are ---------*/
 
 /* places flex items side by side and wraps items */
 .about-wwa-flex {
@@ -703,8 +703,9 @@ footer i:hover {
     order: 5;
 }
 
-/*--------- LARGE MARKETS ---------*/
+/*-------------------- LARGE CONTACT PAGE --------------------*/
 
+/*-------- Large Email ---------*/
 
 .email h2 {
     text-align: center;
