@@ -121,12 +121,12 @@ img {
 
 /* Forms */
 
-form legend, input {
+form legend, input, textarea {
     margin-bottom: 30px;
     width: 100%;
 }
 
-form input {
+form input, textarea {
     border: 1px solid var(--primary-color);
     border-radius: 8px;
     padding: 10px;
@@ -136,6 +136,13 @@ form input {
 
 form span {
     font-weight: bold;
+}
+
+/* message box */
+
+form textarea {
+    height: 200px;
+    width: 100%;
 }
 
 /* submit and reset buttons */
@@ -342,9 +349,6 @@ header .nav-select {
     font: 2.1rem "Lato", sans-serif;
 }
 
-
-
-
 /*-------- FOOTER ---------*/
 
 footer {
@@ -465,6 +469,7 @@ footer i {
 
 /*-------------------- CONTACT PAGE --------------------*/
 
+/*-------- Email ---------*/
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
@@ -499,6 +504,10 @@ h2 {
 }
 
 /* Forms */
+
+form {
+    width: 50%;
+}
 
 /* button hover styles */
 input[type="reset"]:hover {
@@ -594,10 +603,6 @@ header ul li:last-of-type a:hover {
 /* displays previously hidden block*/
 .newsletter > div > div > .button {
     display: inline-block;
-}
-
-.newsletter form {
-    width: 50%;
 }
 
 /* hides last button */
