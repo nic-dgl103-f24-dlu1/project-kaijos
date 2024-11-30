@@ -706,4 +706,11 @@ footer i:hover {
 /*--------- LARGE MARKETS ---------*/
 
 
+.email h2 {
+    text-align: center;
+}
+
+.email form {
+    margin: 0 auto;
+}
 }
