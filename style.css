@@ -31,7 +31,7 @@ Content hierarchy repeats as needed for media queries.
 
 :root {
     --accent-color: #b4df78;
-    --secondary-color: #f4ffe0;
+    --secondary-color: #f0fff0;
     --dark-color: #222;
     --primary-color: #495F2B;
     --white: #fff;
