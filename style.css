@@ -479,6 +479,35 @@ footer i {
     margin-top: 0;
 }
 
+/* Board of Directors */
+
+caption {
+   font-size: 3rem;
+   text-transform: uppercase;
+}
+
+td, th {
+  padding: 8px;
+}
+
+th {
+    padding: 12px 8px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* applies bg to every second row */
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+tfoot {
+    background-color: #b1cfb1;
+    font-style: italic;
+    text-align: center;
+}
+
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
 @media only screen and (min-width: 1200px) {
