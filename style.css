@@ -121,12 +121,12 @@ img {
 
 /* Forms */
 
-form legend, input, textarea {
+form legend, form input, form textarea {
     margin-bottom: 30px;
     width: 100%;
 }
 
-form input, textarea {
+form input, form textarea {
     border: 1px solid var(--primary-color);
     border-radius: 8px;
     padding: 10px;
@@ -152,7 +152,7 @@ form .wrapper-button {
     justify-content: space-between;
 }
 
-form input[type="reset"], input[type="submit"] {
+form input[type="reset"], form input[type="submit"] {
     /* layout */
     padding: 12px 20px;
     width: auto;
@@ -354,7 +354,7 @@ footer ul li {
     margin: 10px 0;
 }
 
-footer a, i {
+footer a, footer i {
     color: var(--white);
     transition: all 200ms ease-in-out;
 }
@@ -662,7 +662,7 @@ header ul li:last-of-type a:hover {
     gap: 15px 0;
 }
 
-footer a:hover, i:hover {
+footer a:hover, footer i:hover {
     color: var(--accent-color);
     transition: all 200ms ease-in-out;
 }
