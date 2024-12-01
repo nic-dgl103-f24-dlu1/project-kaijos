@@ -253,7 +253,7 @@ header .nav-select {
 /*-------- HERO ---------*/
 
 .hero {
-  background: url("Images/hero.jpg") no-repeat center;
+  background: url("Images/hero-mobile.jpg") no-repeat center;
   background-size: cover;
   color: var(--white);
   text-align: center;
@@ -610,6 +610,7 @@ tfoot {
   /*-------- Large Hero ---------*/
 
   .hero {
+    background: url("Images/hero.jpg") no-repeat center;
     padding: 15vh 0;
   }
 
