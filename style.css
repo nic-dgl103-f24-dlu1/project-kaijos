@@ -327,7 +327,6 @@ header .nav-select {
 .newsletter {
     background: url(images/market-10.jpg) no-repeat;
     background-size: cover;
-    margin: 0 auto;
 }
 
 .newsletter h2 {
@@ -476,7 +475,8 @@ footer i {
     padding: 20px 20px 0;
 }
 
-.email h2, form {
+/* both need to specify .email or it'll apply to the newsletter form also */
+.email h2, .email form {
     margin: 0 auto;
     max-width: 565px;
 }
