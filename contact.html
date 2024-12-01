@@ -1,219 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comox Valley Farmer's Market — Contact Us</title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
     <!--CSS Stylesheet-->
     <link rel="stylesheet" href="style.css" />
     <!--Google Font Lato-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!--Google Font Ubuntu-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <!--Hamburger icon-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!--Social Media icons-->
-    <script src="https://kit.fontawesome.com/8629b4aa4a.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/8629b4aa4a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <div>
-        <a class="logo" href="#"><img alt="Comox Valley Farmer's Market Logo with text" src="images/logo-with-text.svg"></a>
+      <div>
+        <a class="logo" href="#"
+          ><img
+            alt="Comox Valley Farmer's Market Logo with text"
+            src="images/logo-with-text.svg"
+        /></a>
         <nav>
-            <a class="toggle" onclick="showNav()"
+          <a class="toggle" onclick="showNav()"
             ><i class="fa fa-bars" aria-hidden="true"></i
-            ></a>
-            <ul id="nav-items">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Apply Here</a></li>
-                <li><a class="nav-select" href="contact.html">Contact Us</a></li>
-            </ul>
+          ></a>
+          <ul id="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Apply Here</a></li>
+            <li><a class="nav-select" href="contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
     <main>
-        <section class="hero">
-            <div class="content-width">
-                <h1>Contact Us</h1>
+      <section class="hero">
+        <div class="content-width">
+          <h1>Contact Us</h1>
+        </div>
+      </section>
+      <section class="email">
+        <div class="content-width">
+          <h2>Email us</h2>
+          <form class="card" method="post" action="#">
+            <label for="fname-contact">First name</label>
+            <input
+              type="text"
+              id="fname-contact"
+              name="firstname"
+              placeholder="Ex. John"
+            />
+            <label for="lname-contact">Last name</label>
+            <input
+              type="text"
+              id="lname-contact"
+              name="lastname"
+              placeholder="Ex. Smith"
+            />
+            <label for="email-contact">Email<span> * (required)</span></label>
+            <input
+              type="email"
+              id="email-contact"
+              name="email"
+              placeholder="Ex. name@domain.com"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Please tell us about your enquiry"
+            ></textarea>
+            <div class="wrapper-button">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
             </div>
-        </section>
-        <section class="email">
-            <div class="content-width">
-                <h2>Email us</h2>
-                <form class="card" method="post" action="#">
-                    <label for="fname-contact">First name</label>
-                    <input type="text" id="fname-contact" name="firstname" placeholder="Ex. John">
-                    <label for="lname-contact">Last name</label>
-                    <input type="text" id="lname-contact" name="lastname" placeholder="Ex. Smith">
-                    <label for="email-contact">Email<span> * (required)</span></label>
-                    <input type="email" id="email-contact" name="email" placeholder="Ex. name@domain.com" required>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Please tell us about your enquiry"></textarea>
-                    <div class="wrapper-button">
-                        <input type="reset" value="Reset">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
+          </form>
+        </div>
+      </section>
+      <section class="table-bod">
+        <div class="content-width">
+          <h2>Board of Directors</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Name</th>
+                  <th>Company</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>President</td>
+                  <td>Mary-Jane Douglas</td>
+                  <td>Ridgewood Farm</td>
+                  <td>(250) 204-3772</td>
+                  <td>mjd@island.net</td>
+                </tr>
+                <tr>
+                  <td>Vice President</td>
+                  <td>Shannon Dillman</td>
+                  <td>Fiddlehead Skincare</td>
+                  <td>(250) 703-3882</td>
+                  <td>fiddleheadskincare@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Treasurer</td>
+                  <td>Megan Shea</td>
+                  <td>Lamb and Chick</td>
+                  <td>(250) 941-1047</td>
+                  <td>lamb.and.chick@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Secretary</td>
+                  <td>Jessica Macpherson</td>
+                  <td>Heavenly Libations / Cork Tree Farm</td>
+                  <td>(250) 218-4308</td>
+                  <td>heavenlylibations@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Director</td>
+                  <td>Brian Padlewski</td>
+                  <td>Whitaker Farm</td>
+                  <td>(778) 585-3276</td>
+                  <td>farmer@whitakerfarm.ca</td>
+                </tr>
+                <tr>
+                  <td>Director</td>
+                  <td>Chad Seifert</td>
+                  <td>Shorewolf Farm</td>
+                  <td>(250) 650-4878</td>
+                  <td>shorewolffarm@outlook.com</td>
+                </tr>
+                <tr>
+                  <td>Director</td>
+                  <td>Brody Abbat-Slater</td>
+                  <td>The Mustard Lady</td>
+                  <td>(250) 871-0109</td>
+                  <td>themustardladycv@gmail.com</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="5">Information current as of December 2024</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section class="directions">
+        <div class="content-width">
+          <h2>Directions</h2>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=18SEFrTZbpkeQ788yQ_9y-UcZsc01b73t"
+          ></iframe>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="content-width">
+          <div>
+            <h2>Stay in touch</h2>
+          </div>
+          <form class="card" method="post" action="#">
+            <h3>Join our newsletter</h3>
+            <label for="fname">First name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Ex. John"
+            />
+            <label for="lname">Last name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Ex. Smith"
+            />
+            <label for="email">Email<span> * (required)</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ex. name@domain.com"
+              required
+            />
+            <div class="wrapper-button">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
             </div>
-        </section>
-        <section class="table-bod">
-            <div class="content-width">
-                <h2>Board of Directors</h2>
-                <div class="table-scroll">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Title</th>
-                                <th>Name</th>
-                                <th>Company</th>
-                                <th>Phone</th>
-                                <th>Email</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>President</td>
-                                <td>Mary-Jane Douglas</td>
-                                <td>Ridgewood Farm</td>
-                                <td>(250) 204-3772</td>
-                                <td>mjd@island.net</td>
-                            </tr>
-                            <tr>
-                                <td>Vice President</td>
-                                <td>Shannon Dillman  </td>
-                                <td>Fiddlehead Skincare</td>
-                                <td>(250) 703-3882</td>
-                                <td>fiddleheadskincare@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Treasurer</td>
-                                <td>Megan Shea</td>
-                                <td>Lamb and Chick</td>
-                                <td>(250) 941-1047</td>
-                                <td>lamb.and.chick@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Secretary</td>
-                                <td>Jessica Macpherson</td>
-                                <td>Heavenly Libations / Cork Tree Farm</td>
-                                <td>(250) 218-4308</td>
-                                <td>heavenlylibations@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Director</td>
-                                <td>Brian Padlewski</td>
-                                <td>Whitaker Farm</td>
-                                <td>(778) 585-3276</td>
-                                <td>farmer@whitakerfarm.ca</td>
-                            </tr>
-                            <tr>
-                                <td>Director</td>
-                                <td>Chad Seifert</td>
-                                <td>Shorewolf Farm</td>
-                                <td>(250) 650-4878</td>
-                                <td>shorewolffarm@outlook.com</td>
-                            </tr>
-                            <tr>
-                                <td>Director</td>
-                                <td>Brody Abbat-Slater</td>
-                                <td>The Mustard Lady</td>
-                                <td>(250) 871-0109</td>
-                                <td>themustardladycv@gmail.com</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="5">Information current as of December 2024</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <section class="directions">
-            <div class="content-width">
-                <h2>Directions</h2>
-                <iframe src="https://www.google.com/maps/d/embed?mid=18SEFrTZbpkeQ788yQ_9y-UcZsc01b73t"></iframe>
-            </div>
-        </section>
-        <section class="newsletter">
-            <div class="content-width">
-                <div>
-                    <h2>Stay in touch</h2>
-                </div>
-                <form class="card" method="post" action="#">
-                    <h3>Join our newsletter</h3>
-                    <label for="fname">First name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Ex. John">
-                    <label for="lname">Last name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Ex. Smith">
-                    <label for="email">Email<span> * (required)</span></label>
-                    <input type="email" id="email" name="email" placeholder="Ex. name@domain.com" required>
-                    <div class="wrapper-button">
-                        <input type="reset" value="Reset">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </section>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-top content-width">
-            <div>
-                <a href="#"><img alt="Comox Valley Farmer's Market Logo without text" src="images/logo-no-text.svg"></a>
-                <p>Comox Valley Farmer&apos;s Market — Bringing local food to local folks since 1992.</p>
-                <p>We respectfully acknowledge that the land we gather on is on the Unceded traditional territory of the K&apos;ómoks First Nation, the traditional keepers of this land.</p>
-            </div>
-            <section>
-                <h2>Quick links</h2>
-                <ul class="footer-border">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#"> Apply Here</a></li>
-                    <li><a class="nav-select" href="contact.html">&gt; Contact Us</a></li>
-                </ul>
-            </section>
-            <section>
-                <h2>Social media</h2>
-                    <div class="footer-border">
-                        <a href="https://www.facebook.com/cvfarmersmarket"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://twitter.com/Cvfarmersmarket"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.tiktok.com/@cvfarmersmarket"><i class="fa-brands fa-tiktok"></i></a>
-                        <a href="https://www.instagram.com/comox_valley_farmers_market/"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UC5ccCDYnQMiyHt-gA4ZDBLg"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-            </section>
-            <section>
-                <h2>Get in touch</h2>
-                <div class="footer-border">
-                    <p>info@cvfm.ca</p>
-                    <p>Box 3301, Courtenay, BC, V9N 5N5</p>
-                </div>
-            </section>
+      <div class="footer-top content-width">
+        <div>
+          <a href="#"
+            ><img
+              alt="Comox Valley Farmer's Market Logo without text"
+              src="images/logo-no-text.svg"
+          /></a>
+          <p>
+            Comox Valley Farmer&apos;s Market — Bringing local food to local
+            folks since 1992.
+          </p>
+          <p>
+            We respectfully acknowledge that the land we gather on is on the
+            Unceded traditional territory of the K&apos;ómoks First Nation, the
+            traditional keepers of this land.
+          </p>
         </div>
-        <div class="footer-bottom">
-            <p><em>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</em></p>
-        </div>
+        <section>
+          <h2>Quick links</h2>
+          <ul class="footer-border">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#"> Apply Here</a></li>
+            <li>
+              <a class="nav-select" href="contact.html">&gt; Contact Us</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Social media</h2>
+          <div class="footer-border">
+            <a href="https://www.facebook.com/cvfarmersmarket"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/Cvfarmersmarket"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.tiktok.com/@cvfarmersmarket"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="https://www.instagram.com/comox_valley_farmers_market/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UC5ccCDYnQMiyHt-gA4ZDBLg"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </section>
+        <section>
+          <h2>Get in touch</h2>
+          <div class="footer-border">
+            <p>info@cvfm.ca</p>
+            <p>Box 3301, Courtenay, BC, V9N 5N5</p>
+          </div>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <em
+            >This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner.</em
+          >
+        </p>
+      </div>
     </footer>
     <script>
-        function showNav() {
-          var element = document.getElementById("nav-items");
-          element.classList.toggle("show-items");
-        }
-      </script>
-</body>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
 </html>

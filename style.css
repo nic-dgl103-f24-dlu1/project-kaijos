@@ -29,149 +29,157 @@ Content hierarchy repeats as needed for media queries.
 /*-------- VARIABLES ---------*/
 
 :root {
-    --accent-color: #b4df78;
-    --dark-color: #222;
-    --primary-color: #495F2B;
-    --secondary-color: #f0fff0;
-    --white: #fff;
+  --accent-color: #b4df78;
+  --dark-color: #222;
+  --primary-color: #495f2b;
+  --secondary-color: #f0fff0;
+  --white: #fff;
 }
 
 /*-------- STYLES ---------*/
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    color: var(--dark-color);
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+  color: var(--dark-color);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #222;
+  color: #222;
 }
 
 p {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 /*-------- TYPOGRAPHY ---------*/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
 h1 {
-    font-size: 3.8rem;
-    margin: 0;
+  font-size: 3.8rem;
+  margin: 0;
 }
 
 h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
+  font-size: 3rem;
+  text-transform: uppercase;
 }
 
 h3 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-h3, h4 {
-    font-size: 2.1rem;
+h3,
+h4 {
+  font-size: 2.1rem;
 }
 
 a.button {
-    /* layout */
-    display: inline-block;
-    margin: 26px 0;
-    padding: 12px 48px;
-    /* UI */
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    color: var(--white);
-    font-family: "Lato", sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 200ms ease-in-out;
-  }
+  /* layout */
+  display: inline-block;
+  margin: 26px 0;
+  padding: 12px 48px;
+  /* UI */
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: var(--white);
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+}
 
 img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 /*-------- UTILITY ---------*/
 
 .card {
-    background: var(--white);
-    border-radius: 8px;
-    padding: 20px;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 20px;
 }
 
 .content-width {
-    margin: auto 5vw;
-    padding: 50px 0;
+  margin: auto 5vw;
+  padding: 50px 0;
 }
 
 /* Forms */
 
 form h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
-form input, form textarea {
-    border: 1px solid var(--primary-color);
-    border-radius: 8px;
-    margin-bottom: 30px;
-    padding: 10px;
-    width: 100%;
+form input,
+form textarea {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
 }
 
 /* required field */
 
 form span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* message box */
 
 form textarea {
-    height: 200px;
-    width: 100%;
+  height: 200px;
+  width: 100%;
 }
 
 /* submit and reset buttons */
 
 form .wrapper-button {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-form input[type="reset"], form input[type="submit"] {
-    /* layout */
-    padding: 12px 20px;
-    width: auto;
-    /* UI */
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 200ms ease-in-out;
+form input[type="reset"],
+form input[type="submit"] {
+  /* layout */
+  padding: 12px 20px;
+  width: auto;
+  /* UI */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 form input[type="reset"] {
-    background-color: var(--white);
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 form input[type="submit"] {
-    background-color: var(--primary-color);
-    color: var(--white);
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 /*-------------------- HOME PAGE --------------------*/
@@ -181,196 +189,197 @@ form input[type="submit"] {
 /* .content-width Margin value is applied here. I wanted the padding to be smaller so I decided not to apply content-width to the header. */
 
 header {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 header div {
-    display: flex;
-    justify-content: space-between;
-    margin: auto 5vw;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 5vw;
+  padding: 20px 0;
 }
 
 /* logo */
 
 /* Applied 60px to both .logo and <img> because <a>'s height is larger otherwise, which will unalign the logo with the nav icon vertically */
 header .logo {
-    height: 60px;
+  height: 60px;
 }
 
 header img {
-    height: 60px;
+  height: 60px;
 }
 
 /* nav */
 
 header .toggle {
-    color: var(--dark-color);
-    /* Increases icon size */
-    font-size: 3rem;
+  color: var(--dark-color);
+  /* Increases icon size */
+  font-size: 3rem;
 }
 
 header nav {
-    padding-top: 8px;
-    text-align: right;
+  padding-top: 8px;
+  text-align: right;
 }
 
 header nav ul {
-    /* Hides nav items until icon is clicked */
-    display: none;
-    line-height: 2.5;
-    padding: 0;
+  /* Hides nav items until icon is clicked */
+  display: none;
+  line-height: 2.5;
+  padding: 0;
 }
 
 header a {
-    list-style-type: none;
-    text-decoration: none;
-    text-transform: uppercase;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 header li {
-    font-family: "Lato", sans-serif;
-    list-style-type: none;
+  font-family: "Lato", sans-serif;
+  list-style-type: none;
 }
 
 header .nav-select {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .show-items {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /*-------- HERO ---------*/
 
 .hero {
-    background: url("images/hero.jpg") no-repeat center;
-    background-size: cover;
-    color: var(--white);
-    text-align: center;
-    padding: 20vh 0;
+  background: url("images/hero.jpg") no-repeat center;
+  background-size: cover;
+  color: var(--white);
+  text-align: center;
+  padding: 20vh 0;
 }
 
 /*-------- ABOUT ---------*/
 
 .home-about {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .home-about img {
-    width: 100%;
+  width: 100%;
 }
 
 .video {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .video iframe {
-    height: 55vh;
-    width: 100%;
+  height: 55vh;
+  width: 100%;
 }
 
 /*-------- MARKETS ---------*/
 
 .home-markets {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .home-markets img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /*-------- DIRECTIONS ---------*/
 
 .directions {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .directions h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .directions iframe {
-    height: 60vh;
-    width: 100%;
+  height: 60vh;
+  width: 100%;
 }
 
 /*-------- CALL-TO-ACTION ---------*/
 
 .newsletter {
-    background: url(images/market-10.jpg) no-repeat;
-    background-size: cover;
+  background: url(images/market-10.jpg) no-repeat;
+  background-size: cover;
 }
 
 .newsletter h2 {
-    border: none;
-    color: var(--white);
-    margin-top: 0;
+  border: none;
+  color: var(--white);
+  margin-top: 0;
 }
 
 /* hides button */
 .newsletter > div > div > a {
-    display: none;
+  display: none;
 }
 
 .newsletter form h3 {
-    font: 2.1rem "Lato", sans-serif;
+  font: 2.1rem "Lato", sans-serif;
 }
 
 /*-------- FOOTER ---------*/
 
 footer {
-    background-color: var(--dark-color);
-    color: var(--white);
+  background-color: var(--dark-color);
+  color: var(--white);
 }
 
 .footer-top {
-    padding: 50px 5vw;
+  padding: 50px 5vw;
 }
 
 /* footer logo */
 footer img {
-    height: auto;
-    width: 100px;
+  height: auto;
+  width: 100px;
 }
 
 footer h2 {
-    border-bottom: none;
-    font-size: 2.1rem;
-    padding: 0;
+  border-bottom: none;
+  font-size: 2.1rem;
+  padding: 0;
 }
 
 /* matches padding for cards */
 .footer-border {
-    border-left: 5px solid var(--primary-color);
-    margin: 20px 0;
-    padding: 10px 0 10px 20px;
+  border-left: 5px solid var(--primary-color);
+  margin: 20px 0;
+  padding: 10px 0 10px 20px;
 }
 
 /* quick links */
 
 footer ul li {
-    list-style-type: none;
-    margin: 10px 0;
+  list-style-type: none;
+  margin: 10px 0;
 }
 
-footer a, footer i {
-    color: var(--white);
-    transition: all 200ms ease-in-out;
+footer a,
+footer i {
+  color: var(--white);
+  transition: all 200ms ease-in-out;
 }
 
 /* social media icons */
 footer i {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 /* disclaimer */
 .footer-bottom {
-    background-color: var(--white);
-    color: var(--dark-color);
-    padding: 20px;
-    width: 100vw;
+  background-color: var(--white);
+  color: var(--dark-color);
+  padding: 20px;
+  width: 100vw;
 }
 
 /*-------------------- ABOUT PAGE --------------------*/
@@ -378,62 +387,62 @@ footer i {
 /*--------- Who We Are ---------*/
 
 .about-wwa {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .about-wwa-flex {
-    display: flex;
-    flex-direction: column;
-    gap: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
 }
 
 .about-wwa-flex img {
-    width: 100%; 
+  width: 100%;
 }
 
 .about-wwa-flex div h2 {
-    display: none;
+  display: none;
 }
 
 /*--------- Markets ---------*/
 
 .about-markets {
-    background-color: var(--secondary-color);
-    text-align: center;
+  background-color: var(--secondary-color);
+  text-align: center;
 }
 
 .about-markets > div p {
-    margin: 16px auto;
+  margin: 16px auto;
 }
 
 .about-markets-flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .about-markets-flex .card {
-    border: 1px solid var(--primary-color);
-    text-align: left;
-    width: 315px;
+  border: 1px solid var(--primary-color);
+  text-align: left;
+  width: 315px;
 }
 
 .about-markets-flex img {
-    height: 250px;
-    object-fit: cover;
-    width: 100%;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .about-markets-flex h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .about-markets-flex em {
-    color: var(--primary-color);
-    font-style: normal;
-    font-weight: bold;
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: bold;
 }
 
 /*-------------------- CONTACT PAGE --------------------*/
@@ -442,293 +451,296 @@ footer i {
 
 /* applied background here so it includes the h2 as well. the :not selector ensures text input fields' backgrounds remain white. */
 .email > div *:not(input, textarea) {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .email h2 {
-    padding: 20px 20px 0;
+  padding: 20px 20px 0;
 }
 
 /* both need to specify .email or it'll apply to the newsletter form also */
-.email h2, .email form {
-    margin: 0 auto;
-    max-width: 565px;
+.email h2,
+.email form {
+  margin: 0 auto;
+  max-width: 565px;
 }
 
 /* Board of Directors */
 
 .table-bod {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .table-scroll {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 table {
-    background-color: var(--white);
-    margin: 0 auto;
-    width: 100%;
+  background-color: var(--white);
+  margin: 0 auto;
+  width: 100%;
 }
 
 tr {
-    transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
-td, th {
-    padding: 8px;
+td,
+th {
+  padding: 8px;
 }
 
 th {
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 12px 8px;
-    text-align: left;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 12px 8px;
+  text-align: left;
 }
 
 /* applies bg to every second row */
 tr:nth-child(even) {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 /* aligns phone numbers to right. it was mentioned in the lessons that numbers should be right-aligned so hopefully this is correct. */
 tr td:nth-child(4) {
-    text-align: right;
+  text-align: right;
 }
 
 tfoot {
-    background-color: #b1cfb1;
-    font-style: italic;
-    text-align: center;
+  background-color: #b1cfb1;
+  font-style: italic;
+  text-align: center;
 }
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 
 @media only screen and (min-width: 1200px) {
+  /*------------------- LARGE GLOBAL STYLES -------------------*/
 
-/*------------------- LARGE GLOBAL STYLES -------------------*/
+  /*-------- Large Typography ---------*/
 
-/*-------- Large Typography ---------*/
-
-h1 {
+  h1 {
     font-size: 5rem;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 3.2rem;
     margin-top: 0;
-}
+  }
 
-/*-------- Large Utility---------*/
+  /*-------- Large Utility---------*/
 
-.content-width {
+  .content-width {
     margin: 0 auto;
     max-width: 1130px;
-}
+  }
 
-.button:hover {
+  .button:hover {
     background-color: var(--accent-color);
     color: var(--dark-color);
     transition: all 200ms ease-in-out;
-}
+  }
 
-/* Forms */
+  /* Forms */
 
-form {
+  form {
     width: 50%;
-}
+  }
 
-/* button hover styles */
-input[type="reset"]:hover, input[type="submit"]:hover {
+  /* button hover styles */
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
     background-color: var(--accent-color);
     color: var(--dark-color);
     transition: all 200ms ease-in-out;
-}
+  }
 
-/*-------------------- LARGE HERO PAGE --------------------*/
+  /*-------------------- LARGE HERO PAGE --------------------*/
 
-/*-------- Large Header ---------*/
+  /*-------- Large Header ---------*/
 
-/* same as .content-width */
-header div {
+  /* same as .content-width */
+  header div {
     margin: 0 auto;
     max-width: 1130px;
-}
+  }
 
-header img {
+  header img {
     height: 72px;
-}
+  }
 
-/* hides bars icon */
-.toggle {
+  /* hides bars icon */
+  .toggle {
     display: none;
-}
+  }
 
-/* removes previously specified padding to center nav items vertically */
-header nav {
+  /* removes previously specified padding to center nav items vertically */
+  header nav {
     padding: 0;
-}
+  }
 
-/* display nav in row */
-header nav ul {
+  /* display nav in row */
+  header nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 650px;
-}
+  }
 
-header ul li a:hover {
+  header ul li a:hover {
     text-decoration: underline;
-}
+  }
 
-header ul li:last-of-type a {
+  header ul li:last-of-type a {
     background-color: var(--primary-color);
     border-radius: 10px;
     color: var(--white);
     padding: 12px 24px;
     text-decoration: none;
     transition: all 200ms ease-in-out;
-}
+  }
 
-header ul li:last-of-type a:hover {
+  header ul li:last-of-type a:hover {
     background-color: var(--accent-color);
     color: var(--dark-color);
-}
+  }
 
-/*-------- Large About ---------*/
+  /*-------- Large About ---------*/
 
-.home-about img {
+  .home-about img {
     float: right;
     width: 50%;
-}
+  }
 
-/*-------- Large Markets ---------*/
+  /*-------- Large Markets ---------*/
 
-.home-markets > div {
+  .home-markets > div {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.home-markets img {
+  .home-markets img {
     max-width: 50%;
-}
+  }
 
-/*-------- Large Call-To-Action ---------*/
+  /*-------- Large Call-To-Action ---------*/
 
-.newsletter > div {
+  .newsletter > div {
     display: flex;
     justify-content: space-around;
-}
+  }
 
-/* center h2 and button vertically */
-.newsletter > div > div {
+  /* center h2 and button vertically */
+  .newsletter > div > div {
     margin: auto 0;
-}
+  }
 
-/* displays previously hidden block*/
-.newsletter > div > div > .button {
+  /* displays previously hidden block*/
+  .newsletter > div > div > .button {
     display: inline-block;
-}
+  }
 
-/* hides last button */
-.newsletter > div > a {
+  /* hides last button */
+  .newsletter > div > a {
     display: none;
-}
+  }
 
-/*-------- Large Footer ---------*/
+  /*-------- Large Footer ---------*/
 
-.footer-top {
+  .footer-top {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.footer-top p {
+  .footer-top p {
     margin-bottom: 0;
     max-width: 300px;
-}
+  }
 
-.footer-top section {
+  .footer-top section {
     display: flex;
     flex-direction: column;
     gap: 25px 0;
-}
+  }
 
-.footer-top section * {
+  .footer-top section * {
     margin: 0;
-}
+  }
 
-/* puts a line to left of items */
-.footer-top .footer-border {
+  /* puts a line to left of items */
+  .footer-top .footer-border {
     display: flex;
     flex-direction: column;
     gap: 15px 0;
-}
+  }
 
-footer a:hover, footer i:hover {
+  footer a:hover,
+  footer i:hover {
     color: var(--accent-color);
     transition: all 200ms ease-in-out;
-}
+  }
 
-.footer-bottom p {
+  .footer-bottom p {
     margin: 0 auto;
     max-width: 500px;
-}
+  }
 
-/*-------------------- LARGE ABOUT PAGE --------------------*/
+  /*-------------------- LARGE ABOUT PAGE --------------------*/
 
-/*--------- Large Who We Are ---------*/
+  /*--------- Large Who We Are ---------*/
 
-/* places flex items side by side and wraps items */
-.about-wwa-flex {
+  /* places flex items side by side and wraps items */
+  .about-wwa-flex {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 1600px;
     gap: 50px 0;
-}
+  }
 
-/* added two h2 elements on the .html so they can display on different spots for different screen sizes - this hides one of those h2 elements... */
-.about-wwa-flex > h2 {
+  /* added two h2 elements on the .html so they can display on different spots for different screen sizes - this hides one of those h2 elements... */
+  .about-wwa-flex > h2 {
     display: none;
-}
+  }
 
-/* ... and this makes the other one re-appear */
-.about-wwa-flex div h2 {
+  /* ... and this makes the other one re-appear */
+  .about-wwa-flex div h2 {
     display: block;
-}
+  }
 
-.about-wwa-flex img {
+  .about-wwa-flex img {
     margin: 0;
     width: 50%;
-}
+  }
 
-/* staggers images and text */
-.about-wwa-order-1 {
+  /* staggers images and text */
+  .about-wwa-order-1 {
     order: 1;
-}
+  }
 
-.about-wwa-order-2 {
+  .about-wwa-order-2 {
     order: 2;
-}
+  }
 
-.about-wwa-order-3 {
+  .about-wwa-order-3 {
     order: 3;
-}
+  }
 
-.about-wwa-order-4 {
+  .about-wwa-order-4 {
     order: 5;
-}
+  }
 
-/*-------------------- LARGE CONTACT PAGE --------------------*/
+  /*-------------------- LARGE CONTACT PAGE --------------------*/
 
-/*-------- Large Board of Directors ---------*/
+  /*-------- Large Board of Directors ---------*/
 
-tbody tr:nth-child(odd):hover {
+  tbody tr:nth-child(odd):hover {
     background-color: #f0f0f0;
     transition: all 200ms ease-in-out;
   }
 
-tbody tr:nth-child(even):hover {
+  tbody tr:nth-child(even):hover {
     background-color: #e2f3e2;
     transition: all 200ms ease-in-out;
   }
