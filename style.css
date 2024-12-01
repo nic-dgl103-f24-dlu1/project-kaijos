@@ -607,6 +607,12 @@ tfoot {
     color: var(--dark-color);
   }
 
+  /*-------- Large Hero ---------*/
+
+  .hero {
+    padding: 15vh 0;
+  }
+
   /*-------- Large About ---------*/
 
   .home-about img {
