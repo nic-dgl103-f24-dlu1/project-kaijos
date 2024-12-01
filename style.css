@@ -468,12 +468,17 @@ footer i {
 
 /*-------- Email ---------*/
 
-.email form {
+.email > div * {
     background-color: var(--secondary-color);
 }
 
 .email h2 {
-    margin-top: 0;
+    padding: 20px 20px 0;
+}
+
+.email h2, form {
+    margin: 0 auto;
+    max-width: 565px;
 }
 
 /* Board of Directors */
@@ -735,16 +740,6 @@ footer a:hover, i:hover {
 }
 
 /*-------------------- LARGE CONTACT PAGE --------------------*/
-
-/*-------- Large Email ---------*/
-
-.email h2 {
-    text-align: center;
-}
-
-.email form {
-    margin: 0 auto;
-}
 
 /*-------- Large Board of Directors ---------*/
 
