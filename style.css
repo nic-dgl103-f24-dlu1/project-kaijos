@@ -99,6 +99,7 @@ a.button {
     font-family: "Lato", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 200ms ease-in-out;
   }
 
 img {
@@ -151,27 +152,25 @@ form .wrapper-button {
     justify-content: space-between;
 }
 
-form input[type="reset"] {
+form input[type="reset"], input[type="submit"] {
     /* layout */
     padding: 12px 20px;
     width: auto;
     /* UI */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+form input[type="reset"] {
     background-color: var(--white);
     border: 1px solid var(--primary-color);
-    border-radius: 8px;
     color: var(--primary-color);
-    cursor: pointer;
 }
 
 form input[type="submit"] {
-    /* layout */
-    padding: 12px 20px;
-    width: auto;
-    /* UI */
     background-color: var(--primary-color);
-    border-radius: 8px;
     color: var(--white);
-    cursor: pointer;
 }
 
 /*-------------------- HOME PAGE --------------------*/
@@ -383,13 +382,13 @@ footer ul li {
     margin: 10px 0;
 }
 
-footer ul a {
+footer a, i {
     color: var(--white);
+    transition: all 200ms ease-in-out;
 }
 
 /* social media icons */
 footer i {
-    color: var(--white);
     margin-right: 20px;
 }
 
@@ -500,6 +499,7 @@ table {
 
 td, th {
     padding: 8px;
+    transition: all 200ms ease-in-out;
 }
 
 th {
