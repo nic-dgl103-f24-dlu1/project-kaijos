@@ -487,6 +487,7 @@ footer i {
 
 table {
     background-color: var(--white);
+    margin: 0 auto;
 }
 
 td, th {
