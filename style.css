@@ -757,4 +757,14 @@ footer i:hover {
 .email form {
     margin: 0 auto;
 }
+
+/*-------- Large Board of Directors ---------*/
+
+tbody tr:nth-child(odd):hover {
+    background-color: #f0f0f0;
+  }
+
+tbody tr:nth-child(even):hover {
+    background-color: #e2f3e2;
+  }
 }
