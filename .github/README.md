@@ -95,25 +95,21 @@ The official logo uses the typeface Filson (guessed using https://www.myfonts.co
 
 #### Hero Section
 
-1. Heading: Welcome to the Comox Valley Farmer's Market!
+1. Heading: Welcome to the Comox Valley Farmer's Market
 2. Image: Use group photo from gallery on current site
 
 #### About Section
 
 1. Heading: About Us
-2. Image: Same as official site
+2. Image: Group of people at the market
 3. Paragraph: Brief intro to Comox Valley Farmer's Market
 4. Link to About page: "Learn More"
-5. Video
 
 #### Markets Section
 
 1. Heading: "Our Markets"
-2. List of Markets Cards (Each Card Includes):
-    - Heading: Market name
-    - Image: Image of market
-    - Paragraph: Market information
-3. Link to About / Markets page: "Learn More"
+2. Paragraph: Brief blurb about the markets
+3. Link to About / Markets page: "See our markets"
 
 #### Directions Section
 
@@ -133,10 +129,10 @@ The official logo uses the typeface Filson (guessed using https://www.myfonts.co
 3. Paragraph: Territory Acknowledgement
 4. Heading: "Quick Links"
 5. Navigation: Same as Header
-6. Heading: "Contact Us"
-7. Paragraph: Contact information
-8. Heading: "Social Media"
-9. Social Media Icons
+6. Heading: "Social Media"
+7. Social Media Icons
+8. Heading: "Contact Us"
+9. Paragraph: Contact information
 10. Disclaimer: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
 
 
@@ -152,22 +148,33 @@ Same as Home Page
 1. Heading: "About Us"
 2. Image: Same as official site
 
+### Who We Are Section
+
+1. Heading: "Who We Are"
+2. Heading: "Our history"
+3. Paragraph: CVFM history
+4. Image
+5. Heading: "Supporting local producers"
+6. Paragraph: General information about CVFM
+7. Image
+8. Heading: "Our farmers and producers offer:"
+9. Paragraph: List of products for sale
+10. Link to About / Vendors page: "See our vendors"
+11. Image
+12. Video: https://youtu.be/qHPuSIHFMfo
+
 #### Markets Section
 
 1. Heading: "Our Markets"
 2. Paragraph: Summary of markets
-3. Subheading: "Courtenay/Cumberland Markets" (repeat 3-4 as needed)
-4. List of Markets Cards (Each Card Includes):
+3. List of Markets Cards (Each Card Includes):
     - Heading: Market name
     - Image: Image of market
     - Paragraph: Market information
-5. Link to About / Markets page: "Learn More"
 
-#### Vendors & Products Section
+#### Directions Section
 
-1. Heading: "Our Vendors & Products"
-2. Paragraph: Summary of vendors and their products
-3. Link to About / Vendors page: "Meet Our Vendors"
+Same as Home Page
 
 #### Call-to-Action
 
@@ -189,17 +196,19 @@ Same as on Home Page
 
 1. Heading: "Contact Us"
 
-#### Board of Directors Section
-
-1. Heading: "Board of Directors 2024-2025"
-2. Table: Board of Directors contact information
-
 #### Email Section
 
 1. Heading: "Send us an email"
 2. Email Form
 
+#### Board of Directors Section
+
+1. Heading: "Board of Directors"
+2. Table: Board of Directors contact information
+
 #### Directions Section
+
+Same as Home Page
 
 #### Call-to-Action
 
