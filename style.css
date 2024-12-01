@@ -511,6 +511,11 @@ tr:nth-child(even) {
     background-color: var(--secondary-color);
 }
 
+/* aligns phone numbers to right. it was mentioned in the lessons that numbers should be right-aligned so hopefully this is correct. */
+tr td:nth-child(4) {
+    text-align: right;
+}
+
 tfoot {
     background-color: #b1cfb1;
     font-style: italic;
