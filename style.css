@@ -307,7 +307,7 @@ header .nav-select {
 /*-------- CALL-TO-ACTION ---------*/
 
 .newsletter {
-  background: url(Images/market-10.jpg) no-repeat;
+  background: url("Images/market-10.jpg") no-repeat;
   background-size: cover;
 }
 
