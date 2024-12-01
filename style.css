@@ -485,6 +485,10 @@ footer i {
     background-color: var(--secondary-color);
 }
 
+.table-scroll {
+    overflow-x: auto;
+}
+
 table {
     background-color: var(--white);
     margin: 0 auto;
