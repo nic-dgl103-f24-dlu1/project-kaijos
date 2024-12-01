@@ -290,13 +290,14 @@ header .nav-select {
     width: 100%;
 }
 
-/*
+.video {
+    padding-top: 0;
+}
 
 .video iframe {
-    height: auto;
-    width: 100vw;
+    height: 55vh;
+    width: 100%;
 }
-    */
 
 /*-------- MARKETS ---------*/
 
