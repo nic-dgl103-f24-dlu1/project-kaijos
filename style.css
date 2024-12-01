@@ -547,11 +547,8 @@ h2 {
 }
 
 .button:hover {
-    background-color: #ffffff00;
-    color: var(--primary-color);
-    border: 3px solid var(--primary-color);
-    /*padding on non-hover button: 12px 48px, reduced by 3px to account for border. prevents button from expanding*/
-    padding: 9px 45px;
+    background-color: var(--accent-color);
+    color: var(--dark-color);
 }
 
 /* Forms */
@@ -561,12 +558,9 @@ form {
 }
 
 /* button hover styles */
-input[type="reset"]:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-}
-
-input[type="submit"]:hover {
-    background-color: #567032;
+input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: var(--accent-color);
+    color: var(--dark-color);
 }
 
 /*-------------------- LARGE HERO PAGE --------------------*/
@@ -614,11 +608,8 @@ header ul li:last-of-type a {
 }
 
 header ul li:last-of-type a:hover {
-    background-color: var(--white);
-    color: var(--primary-color);
-    border: 3px solid var(--primary-color);
-    /*original padding -3px to account for the border. prevents the button from expanding in size.*/
-    padding: 9px 21px;
+    background-color: var(--accent-color);
+    color: var(--dark-color);
 }
 
 /*-------- Large About ---------*/
@@ -694,7 +685,7 @@ footer li a:hover {
     text-decoration: none;
 }
 
-footer i:hover {
+footer a:hover, i:hover {
     color: var(--accent-color);
 }
 
