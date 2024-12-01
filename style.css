@@ -686,10 +686,6 @@ header ul li:last-of-type a:hover {
     gap: 15px 0;
 }
 
-footer li a:hover {
-    text-decoration: none;
-}
-
 footer a:hover, i:hover {
     color: var(--accent-color);
     transition: all 200ms ease-in-out;
