@@ -552,6 +552,7 @@ h2 {
 .button:hover {
     background-color: var(--accent-color);
     color: var(--dark-color);
+    transition: all 200ms ease-in-out;
 }
 
 /* Forms */
@@ -564,6 +565,7 @@ form {
 input[type="reset"]:hover, input[type="submit"]:hover {
     background-color: var(--accent-color);
     color: var(--dark-color);
+    transition: all 200ms ease-in-out;
 }
 
 /*-------------------- LARGE HERO PAGE --------------------*/
@@ -690,6 +692,7 @@ footer li a:hover {
 
 footer a:hover, i:hover {
     color: var(--accent-color);
+    transition: all 200ms ease-in-out;
 }
 
 .footer-bottom p {
@@ -746,9 +749,11 @@ footer a:hover, i:hover {
 
 tbody tr:nth-child(odd):hover {
     background-color: #f0f0f0;
+    transition: all 200ms ease-in-out;
   }
 
 tbody tr:nth-child(even):hover {
     background-color: #e2f3e2;
+    transition: all 200ms ease-in-out;
   }
 }
