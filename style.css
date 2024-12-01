@@ -236,7 +236,6 @@ header li {
 
 header .nav-select {
     color: var(--primary-color);
-    display: inline-block;
 }
 
 .show-items {
