@@ -325,14 +325,14 @@ header .nav-select {
 /*-------- CALL-TO-ACTION ---------*/
 
 .newsletter {
-    background-image: url(images/market-10.jpg);
-    background-repeat: no-repeat;
+    background: url(images/market-10.jpg) no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .newsletter h2 {
-    color: var(--white);
     border: none;
+    color: var(--white);
     margin-top: 0;
 }
 
@@ -358,8 +358,8 @@ footer {
 
 /* footer logo */
 footer img {
-    width: 100px;
     height: auto;
+    width: 100px;
 }
 
 footer h2 {
@@ -371,8 +371,8 @@ footer h2 {
 /* matches padding for cards */
 .footer-border {
     border-left: 5px solid var(--primary-color);
-    padding: 10px 0 10px 20px;
     margin: 20px 0;
+    padding: 10px 0 10px 20px;
 }
 
 /* quick links */
@@ -435,21 +435,21 @@ footer i {
 
 .about-markets-flex {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
     gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .about-markets-flex .card {
-    width: 315px;
     border: 1px solid var(--primary-color);
     text-align: left;
+    width: 315px;
 }
 
 .about-markets-flex img {
-    object-fit: cover;
     height: 250px;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -506,10 +506,10 @@ td, th {
 }
 
 th {
-    padding: 12px 8px;
-    text-align: left;
     background-color: var(--primary-color);
     color: var(--white);
+    padding: 12px 8px;
+    text-align: left;
 }
 
 /* applies bg to every second row */
@@ -548,8 +548,8 @@ h2 {
 /*-------- Large Utility---------*/
 
 .content-width {
-    max-width: 1130px;
     margin: 0 auto;
+    max-width: 1130px;
 }
 
 .button:hover {
@@ -577,8 +577,8 @@ input[type="reset"]:hover, input[type="submit"]:hover {
 
 /* same as .content-width */
 header div {
-    max-width: 1130px;
     margin: 0 auto;
+    max-width: 1130px;
 }
 
 header img {
@@ -712,17 +712,19 @@ footer a:hover, i:hover {
     gap: 50px 0;
 }
 
+/* added two h2 elements on the .html so they can display on different spots for different screen sizes - this hides one of those h2 elements... */
 .about-wwa-flex > h2 {
     display: none;
 }
 
+/* ... and this makes the other one re-appear */
 .about-wwa-flex div h2 {
     display: block;
 }
 
 .about-wwa-flex img {
-    width: 50%;
     margin: 0;
+    width: 50%;
 }
 
 /* staggers images and text */
