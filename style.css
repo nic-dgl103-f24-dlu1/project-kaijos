@@ -497,9 +497,12 @@ table {
     width: 100%;
 }
 
+tr {
+    transition: all 200ms ease-in-out;
+}
+
 td, th {
     padding: 8px;
-    transition: all 200ms ease-in-out;
 }
 
 th {
