@@ -31,9 +31,9 @@ Content hierarchy repeats as needed for media queries.
 
 :root {
     --accent-color: #b4df78;
-    --secondary-color: #f0fff0;
     --dark-color: #222;
     --primary-color: #495F2B;
+    --secondary-color: #f0fff0;
     --white: #fff;
 }
 
@@ -246,10 +246,8 @@ header .nav-select {
 /*-------- HERO ---------*/
 
 .hero {
-    background-image: url("images/hero.jpg");
+    background: url("images/hero.jpg") no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
     color: var(--white);
     text-align: center;
     padding: 20vh 0;
