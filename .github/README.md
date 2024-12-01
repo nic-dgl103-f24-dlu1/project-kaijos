@@ -46,13 +46,13 @@ The markets are meant to be an enjoyable, cheerful, and lively experience for vi
 
 1. Digital Design and Development NIC - https://learndigital.dev/
 
-! [Digital Design and Development Home Page](/Images/dgl-homepage.png)
+! [Digital Design and Development Home Page](/Images/dgl-homepage.jpg)
 
 I feel the DGL website has a professional mood, and the layout is similar to what I'm planning for my project.
 
 2. Quest Reality Games Escape Rooms - https://questrealitygames.com/
 
-! [Quest Reality Games Home Page](/Images/questrealitygames-homepage.png)
+! [Quest Reality Games Home Page](/Images/questrealitygames-homepage.jpg)
 
 The Quest Reality Games website has a more fun, energetic mood. The colours are bright and joyful, and I like how they've organized and ordered the content blocks. The header navigation places a orange, square background around what ever page you're currently on, which I might like to copy for my site.
 
