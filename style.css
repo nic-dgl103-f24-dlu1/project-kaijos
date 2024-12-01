@@ -253,7 +253,7 @@ header .nav-select {
 /*-------- HERO ---------*/
 
 .hero {
-  background: url("images/hero.jpg") no-repeat center;
+  background: url("Images/hero.jpg") no-repeat center;
   background-size: cover;
   color: var(--white);
   text-align: center;
@@ -307,7 +307,7 @@ header .nav-select {
 /*-------- CALL-TO-ACTION ---------*/
 
 .newsletter {
-  background: url(images/market-10.jpg) no-repeat;
+  background: url(Images/market-10.jpg) no-repeat;
   background-size: cover;
 }
 
