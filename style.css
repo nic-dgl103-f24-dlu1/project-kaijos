@@ -586,6 +586,7 @@ header ul li:last-of-type a {
     color: var(--white);
     padding: 12px 24px;
     text-decoration: none;
+    transition: all 200ms ease-in-out;
 }
 
 header ul li:last-of-type a:hover {
