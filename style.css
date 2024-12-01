@@ -468,7 +468,8 @@ footer i {
 
 /*-------- Email ---------*/
 
-.email > div * {
+/* applied background here so it includes the h2 as well. the :not selector ensures text input fields' backgrounds remain white. */
+.email > div *:not(input, textarea) {
     background-color: var(--secondary-color);
 }
 
